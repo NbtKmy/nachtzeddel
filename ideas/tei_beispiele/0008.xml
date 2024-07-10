@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+                    <fileDesc>
+                        <titleStmt>
+                            <title>[NACHTZEDEL, DIENSTAGS, den 1 Augusti 1780.]</title>
+                            <respStmt>
+                                <resp>This file is automatically converted from text file into TEI/XML format.</resp>
+                                <persName>Nobutake Kamiya</persName>
+                            </respStmt>
+                        </titleStmt>
+                        <publicationStmt>
+                            <publisher>Unknown</publisher>
+                            <pubPlace>Zurich</pubPlace>
+                        </publicationStmt>
+                        <sourceDesc>
+                            <bibl>
+                                <title level="a">[NACHTZEDEL, DIENSTAGS, den 1 Augusti 1780.]</title>
+                                <note>The leaflet published and distributed in Zurich</note>
+                            </bibl>
+                        </sourceDesc>
+                    </fileDesc>
+                </teiHeader>
+              <text>
+                  <body>
+                  <head>NACHTZEDEL<lb />DIENSTAGS, den 1 Augusti 1780.</head><div><p><lb />SCHWERDT.<lb />Mr. Carlis de Modena.<lb />le Grand de Belfort.<lb />Hr. Blumer von Glarus.<lb />de Vermenoux, de Paris f. 3.<lb />Meissner von Görlitz in Sachsen f. 3.<lb />Schuch von Saarbrücken.<lb />Hugenin Aelter von Müllhausen.<lb />Mr. Maurice, Mr. Rignon. Mr. Bock de Turin.<lb />Hr. Ryhener, Hr le Grand und Frauen von Basel.<lb />Schindler von Basel.<lb />Sigfried von Zoßngen.</p></div><div><p><lb />STORCHEN.<lb />Mr. Predarii de Milan, f. 2.<lb />Johannes Tüdj von Altstatten.<lb />Samuel Hunziker von Chaam,<lb />4 Handw.</p></div><div><p><lb />ADLER.<lb />Jgfr. Schweizerin von St. Gallen.<lb />Berthold Marsch D'auvergne f. 4.<lb />Francois Monde de Nancy.<lb />Fr. Posterin von Schaffhausen,<lb />2 Jungfauer,</p></div><div><p><lb />ROTHHAUS.<lb />Mr. Pitzala de Milan, f. 5.<lb />Hr. Brix aus Böhmen.<lb />Probst de Biel f. 2. Mad. Blaſius de Rastatt.<lb />Hr. Gidinger von Bischoffzell,</p></div><div><p><lb />HIRSCHEN.<lb />Hr. Leonhard Fornaro von Langenſee.<lb />2 Handwerker-</p></div><div><p><lb />RAABEN.<lb />Hr. Rudolph Biser von Teussen- Zellweguer ab Gaiss.<lb />Caspar Mengli von Schaffhausen,<lb />Bösch von Ebmat f. 2,<lb />3 Pilger,</p></div><div><p><lb />LEUEN.<lb />Ein Piemontesischer Soldat,</p></div><div><p><lb />ROESSLI.<lb />Franz Kurtz aus Landegg.</p></div></body>
+              </text>
+          </TEI>

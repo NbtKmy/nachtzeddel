@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+                    <fileDesc>
+                        <titleStmt>
+                            <title>[NACHTZEDEL, MITTWOCHS, den 2 Augusti 1780.]</title>
+                            <respStmt>
+                                <resp>This file is automatically converted from text file into TEI/XML format.</resp>
+                                <persName>Nobutake Kamiya</persName>
+                            </respStmt>
+                        </titleStmt>
+                        <publicationStmt>
+                            <publisher>Unknown</publisher>
+                            <pubPlace>Zurich</pubPlace>
+                        </publicationStmt>
+                        <sourceDesc>
+                            <bibl>
+                                <title level="a">[NACHTZEDEL, MITTWOCHS, den 2 Augusti 1780.]</title>
+                                <note>The leaflet published and distributed in Zurich</note>
+                            </bibl>
+                        </sourceDesc>
+                    </fileDesc>
+                </teiHeader>
+              <text>
+                  <body>
+                  <head>NACHTZEDEL<lb />MITTWOCHS, den 2 Augusti 1780.</head><div><p><lb />SCHWERDT.<lb />Mr. Carlis de Modena.<lb />le Grand de Beliort.<lb />Hr. Blumer von Glarus.<lb />de Vermenoux, de Paris f. 3.<lb />Meisner von Görlitz in Sachsen f. 3.<lb />Hugenin Aelter von Müllhausen.<lb />Richelmi. Mr. Bock de Turin.<lb />Ryhener, Hr le Grand und Frauen von Basel.<lb />Hertlinger von Winterthur.<lb />1 Landmann.</p></div><div><p><lb />STORCHEN.<lb />Mr. Barade d'Auvergne f. 4.<lb />Benedict Ochsner von Einsidlen.<lb />Ein Burgunder Glashändler f. 2.<lb />2 Landl. 4 Handwerker.</p></div><div><p><lb />ADLER.<lb />Fr. Fosterin von Schaffhausen.<lb />Jgfr. Schweizerin von St. Gallen.<lb />François Monde de Nancy.<lb />Ein Zurzacher Fuhrmann.</p></div><div><p><lb />ROTHHAUS.<lb />Mr. Pitzala de Milan, f. 5.<lb />Michael Girtaner f. 5. von St. Gallen.</p></div><div><p><lb />HIRSCHEN.<lb />Hr. Leonhard Fornaro von Langenfee.<lb />1 Pilger.</p></div><div><p><lb />RAABEN.<lb />Hr. Grob von Wattweil.<lb />Hartmann von Schefftenau f. 2.<lb />Chom &amp; Comp von Glarus f. 9.</p></div><div><p><lb />LEUEN-<lb />1 Landmann.</p></div><div><p><lb />ROESSL-<lb />Hr. Unterv. Müller von Schmerfkon.<lb />Georg Witt von Gebistorf.<lb />Ein Zurzacher Fuhrmann.<lb />2 Pilger.</p></div><div><p><lb />SCHWANEN.<lb />Ein Gerwer von Immenstadt.</p></div></body>
+              </text>
+          </TEI>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+                    <fileDesc>
+                        <titleStmt>
+                            <title>[NACHTZETTEL, SONNTAGS, den 30 Julii 1780.]</title>
+                            <respStmt>
+                                <resp>This file is automatically converted from text file into TEI/XML format.</resp>
+                                <persName>Nobutake Kamiya</persName>
+                            </respStmt>
+                        </titleStmt>
+                        <publicationStmt>
+                            <publisher>Unknown</publisher>
+                            <pubPlace>Zurich</pubPlace>
+                        </publicationStmt>
+                        <sourceDesc>
+                            <bibl>
+                                <title level="a">[NACHTZETTEL, SONNTAGS, den 30 Julii 1780.]</title>
+                                <note>The leaflet published and distributed in Zurich</note>
+                            </bibl>
+                        </sourceDesc>
+                    </fileDesc>
+                </teiHeader>
+              <text>
+                  <body>
+                  <head>NACHTZETTEL<lb />SONNTAGS, den 30 Julii 1780.</head><div><p><lb />SCHWERDT.<lb />Mr. Carlis de Modena.<lb />le Grand de Belfort.<lb />Hr. Blumer von Glarus.<lb />Profesor Steinsky aus Prag.<lb />de Vermenoux, de Paris f. 3.<lb />Arnaud, de Turin.<lb />Meifsner von Görlitz in Sachfen f. 3.<lb />Geelwin von Amfterdam f. 4.<lb />Rathsherr Faefch. Hr. Faefch.<lb />Obrift Eglinger.<lb />Pfr. Eglinger und Frau u. Sohn.<lb />Pfr. Falkeifen, nebft Frau und Sohn.<lb />Profefor Stähelin, Bürlich von Bafel.<lb />Schuch von Saarbrücken.<lb />Ehrengesandte von Glarus.</p></div><div><p><lb />STORCHEN.<lb />Mr. Predarii de Milan, f. 2.<lb />Veit Schmid von Büblifon.<lb />1 Handw.</p></div><div><p><lb />ADLER.<lb />Jgfr. Schweizerin von St. Gallen.<lb />Bernard Martich D'auvergne f. 2.<lb />Mr. Auberin de Luneville.</p></div><div><p><lb />ROTHHAUS.<lb />Hr. Brix aus Böhmen.<lb />Mr. Pizzala de Milan, f. 2.<lb />4 Landleuth.</p></div><div><p><lb />HIRSCHEN.<lb />Hr. Martin Erhardt von Mühlhaufen.<lb />Leonhard Fornaro von Langenfee.</p></div><div><p><lb />RAABEN.<lb />Hr. Major Tfchudy von Glarus.<lb />2 Landl.</p></div><div><p><lb />LEUEN-<lb />2 Landl, 3 Handwerker.</p></div><div><p><lb />ROESSLI.<lb />6 Landleut.</p></div></body>
+              </text>
+          </TEI>

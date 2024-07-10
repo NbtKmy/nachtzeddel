@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+                    <fileDesc>
+                        <titleStmt>
+                            <title>[FREYTAGS, den 28 Julii 1780.]</title>
+                            <respStmt>
+                                <resp>This file is automatically converted from text file into TEI/XML format.</resp>
+                                <persName>Nobutake Kamiya</persName>
+                            </respStmt>
+                        </titleStmt>
+                        <publicationStmt>
+                            <publisher>Unknown</publisher>
+                            <pubPlace>Zurich</pubPlace>
+                        </publicationStmt>
+                        <sourceDesc>
+                            <bibl>
+                                <title level="a">[FREYTAGS, den 28 Julii 1780.]</title>
+                                <note>The leaflet published and distributed in Zurich</note>
+                            </bibl>
+                        </sourceDesc>
+                    </fileDesc>
+                </teiHeader>
+              <text>
+                  <body>
+                  <head>FREYTAGS, den 28 Julii 1780.</head><div><p><lb />SCHWERDT.<lb />Hr. Blumer von Glarus.<lb />Profeffor Steinsky aus Prag.<lb />Meissner von Görlitz in Sachsen f. 3.<lb />Mr. Carlis de Modena.<lb />le Grand de Belfort.<lb />Rebattu de Versailles.<lb />de Vermenoux, de Paris f. 3.<lb />Cislago di Verona.<lb />Arnaud, Mr. Dury de Turin.<lb />Berteaud, Mr. Simon de Chalon sur Sonne.<lb />Anselme de Lyon.<lb />STORCHEN.<lb />Mr. Predarii de Milan, f. 2.<lb />Hr. Kühnhold von Nürnberg.<lb />Ein Glashändler aus dem Schwarzwald.<lb />1 Handw.<lb />ADLER.<lb />Jgfr. Schweizerin von St. Gallen.<lb />Bernold Marsch D'auvergne f. 2.<lb />Fr. Posterin von Schaffhausen.<lb />ROTHHAUS.<lb />Hr. Brix aus Böhmen.<lb />Mr. Pizzala de Milan, f. 2.<lb />Mad. Marianne Blasius de Rastadt f. 2.<lb />2 Lándleuth.<lb />HIRSCHEN.<lb />Hr. Martin Erhardt von Mühlhausen.<lb />Leonhard Fornaro von Langensee.<lb />Ein Bedienter von Hrn. Baron v. Uskiel von Stuttgardt.<lb />RAABEN.<lb />Jgfr. Elisabetha Rieggi von Eichenbach f. 2.<lb />Anna Maria Kleinlin von Welen f. 2.<lb />Salama Strikler von Glarus f. 2.<lb />Marianne Meimnoud von Landau.<lb />Hr. Carl Horret von Toggen-<lb />Arnold Holsteln von Neuburg-<lb />LEUEN-<lb />1 Handwerker-<lb />ROESSLI<lb />Hr. Schneeli von Glarus.<lb />Franz Kurtz von Landeeg-<lb />2 St Galler Fuhrleuth-<lb />SCHWANEN.<lb />1 Landmann-</p></div></body>
+              </text>
+          </TEI>

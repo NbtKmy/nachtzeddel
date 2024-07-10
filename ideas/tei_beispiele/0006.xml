@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+                    <fileDesc>
+                        <titleStmt>
+                            <title>[NACHTZETTEL, MONTAGS, den 31 Julii 1780.]</title>
+                            <respStmt>
+                                <resp>This file is automatically converted from text file into TEI/XML format.</resp>
+                                <persName>Nobutake Kamiya</persName>
+                            </respStmt>
+                        </titleStmt>
+                        <publicationStmt>
+                            <publisher>Unknown</publisher>
+                            <pubPlace>Zurich</pubPlace>
+                        </publicationStmt>
+                        <sourceDesc>
+                            <bibl>
+                                <title level="a">[NACHTZETTEL, MONTAGS, den 31 Julii 1780.]</title>
+                                <note>The leaflet published and distributed in Zurich</note>
+                            </bibl>
+                        </sourceDesc>
+                    </fileDesc>
+                </teiHeader>
+              <text>
+                  <body>
+                  <head>NACHTZETTEL<lb />MONTAGS, den 31 Julii 1780.</head><div><p><lb />SCHWERDT.<lb />Mr. Carlis de Modena.<lb />le Grand de Belfort.<lb />Hr. Blumer von Glarus.<lb />Professor Steinsky aus Prag.<lb />de Vermenoux, de Paris f. 3.<lb />Meissner von Görlitz in Sachsen f. 3.<lb />Pr. Eglinger und Frau aus Sohm.<lb />Pfr. Falkeisen, nebst Frau und Sohn, beide von Basel.<lb />Schuch von Saarbrücken.<lb />Hugenin Vatter von Müllhausen.<lb />Fourrier de Besanson.<lb />Mad. Boursiere de Paris.<lb />Mr. Maurice, Mr. Rignon. Mr. Bock de Turin.<lb />Hr. Archivarius Schickardt von Stuttgardt.<lb />Pater Mayr. Pater Teth, Augustiner Ord. von Constanz.</p></div><div><p><lb />STORCHEN.<lb />Mr. Predarii de Milan, f. 2.<lb />Bride. Hertenstein von Roschach.<lb />Fürsprech Widmer, von Sarnenstorff f. 3.<lb />6 Handw. 2 Landl.</p></div><div><p><lb />ADLER.<lb />Jgfr. Schweizerin von St. Gallen.<lb />Bernold Marsch D'auvergne f. 4.<lb />Mr. Aubertin de Luneville.<lb />3 Handw.</p></div><div><p><lb />ROTHHAUS.<lb />Mr. Pitzala de Milan, f. 5.<lb />Hr. Brix aus Böhmen.<lb />Probst de Bielf f. 2. Mad. Blasius de Rastatt.</p></div><div><p><lb />HIRSCHEN.<lb />Hr. Knufs von Winterthur.<lb />Leonhard Fornaro von Längensee.</p></div><div><p><lb />RAABEN.<lb />Hr. Xaveri Kopp von Münster.<lb />Rudolph Isler von Teussen- Zellwegner ab Gais.<lb />Emanuel Dionil Berber de Fort Louis f. 2.<lb />Adam Diethelm von Weinfelden f. 4.<lb />Johannes Biler von Immenstadt-</p></div><div><p><lb />LEUEN-<lb />Hr. Weissenbach aus Tyrol-<lb />2 Handwerker-</p></div><div><p><lb />ROESSLI-<lb />Franz Kurtz aus Landegg-</p></div></body>
+              </text>
+          </TEI>
