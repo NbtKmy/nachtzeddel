@@ -8,5 +8,8 @@ This Repo contains the JPG-images from [Zürcher Nachtzedel (1780-1784)](https:/
     - OCR results in txt format (in the folder "ocr_mit_claude")
     - Text contents in TEI/XML format (in the folder "tei_beispiele")
 - "images" folder contains;
-    - images from Zürcher Nachtzedel (1780-1784). The images here are not orginal format.
+    - images from Zürcher Nachtzedel (1780-1784). The images here are not in the orginal format
+    - images with odd number are removed, because they are the rear sides of the flyers which have no addtional information
+
+  
 
