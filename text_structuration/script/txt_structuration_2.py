@@ -1,7 +1,17 @@
+# -------------------------- #
+# Code Description:
+# -------------------------- #
+# This script processes nightly visitor data from Zürich's inns, extracting 
+# and structuring information such as visit dates, guest names, and inns where they stayed.
+# The script assigns unique Visit_IDs, Guest_IDs, and Inn_IDs for each record.
+# -------------------------- #
+
 import os
 import re
 import pandas as pd
 from datetime import datetime
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 # Define the directory containing your text files
 txt_directory = 'txt/'
@@ -94,8 +104,15 @@ for filename in files:
 # Convert the structured data into a DataFrame
 df_structured = pd.DataFrame(structured_data)
 
-# Display the structured DataFrame
+# Step 1: Assign a unique ID to each inn and place the 'Inn_ID' column next to the 'Inn' column
+inn_unique_ids = {inn: idx + 1 for idx, inn in enumerate(df_structured['Inn'].unique())}
+df_structured['Inn_ID'] = df_structured['Inn'].map(inn_unique_ids)
+
+# Reorder columns to place 'Inn_ID' next to 'Inn'
+df_structured = df_structured[['Visit_ID', 'Historical Date', 'Modern Date', 'Inn', 'Inn_ID', 'Visitor', 'Guest_ID', 'Filename']]
+
+# Display the structured DataFrame with the new Inn_ID column next to Inn
 print(df_structured.head())
 
 # Save the structured DataFrame to a new CSV file with UTF-8 encoding
-df_structured.to_csv('structured_guests_with_event_ids.csv', index=False, encoding='utf-8')
+df_structured.to_csv('structured_guests_with_inn_ids.csv', index=False, encoding='utf-8')
