@@ -1,0 +1,2645 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Blumer von Glarus.",
+        "guest_id": 1,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Profeffor Steinsky aus Prag.",
+        "guest_id": 2,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Meissner von G\u00f6rlitz in Sachsen f. 3.",
+        "guest_id": 3,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Carlis de Modena.",
+        "guest_id": 4,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "le Grand de Belfort.",
+        "guest_id": 5,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Rebattu de Versailles.",
+        "guest_id": 6,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "de Vermenoux, de Paris f. 3.",
+        "guest_id": 7,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Cislago di Verona.",
+        "guest_id": 8,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Arnaud, Mr. Dury de Turin.",
+        "guest_id": 9,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Berteaud, Mr. Simon de Chalon sur Sonne.",
+        "guest_id": 10,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Anselme de Lyon.",
+        "guest_id": 11,
+        "date": "1780-07-28",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Predarii de Milan, f. 2.",
+        "guest_id": 12,
+        "date": "1780-07-28",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. K\u00fchnhold von N\u00fcrnberg.",
+        "guest_id": 13,
+        "date": "1780-07-28",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Ein Glash\u00e4ndler aus dem Schwarzwald.",
+        "guest_id": 14,
+        "date": "1780-07-28",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "1 Handw.",
+        "guest_id": 15,
+        "date": "1780-07-28",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Jgfr. Schweizerin von St. Gallen.",
+        "guest_id": 16,
+        "date": "1780-07-28",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Bernold Marsch D'auvergne f. 2.",
+        "guest_id": 17,
+        "date": "1780-07-28",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Fr. Posterin von Schaffhausen.",
+        "guest_id": 18,
+        "date": "1780-07-28",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Brix aus B\u00f6hmen.",
+        "guest_id": 19,
+        "date": "1780-07-28",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Pizzala de Milan, f. 2.",
+        "guest_id": 20,
+        "date": "1780-07-28",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Mad. Marianne Blasius de Rastadt f. 2.",
+        "guest_id": 21,
+        "date": "1780-07-28",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "2 L\u00e1ndleuth.",
+        "guest_id": 22,
+        "date": "1780-07-28",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Martin Erhardt von M\u00fchlhausen.",
+        "guest_id": 23,
+        "date": "1780-07-28",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "Leonhard Fornaro von Langensee.",
+        "guest_id": 24,
+        "date": "1780-07-28",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "Ein Bedienter von Hrn. Baron v. Uskiel von Stuttgardt.",
+        "guest_id": 25,
+        "date": "1780-07-28",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Jgfr. Elisabetha Rieggi von Eichenbach f. 2.",
+        "guest_id": 26,
+        "date": "1780-07-28",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Anna Maria Kleinlin von Welen f. 2.",
+        "guest_id": 27,
+        "date": "1780-07-28",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Salama Strikler von Glarus f. 2.",
+        "guest_id": 28,
+        "date": "1780-07-28",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Marianne Meimnoud von Landau.",
+        "guest_id": 29,
+        "date": "1780-07-28",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Carl Horret von Toggen-",
+        "guest_id": 30,
+        "date": "1780-07-28",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Arnold Holsteln von Neuburg-",
+        "guest_id": 31,
+        "date": "1780-07-28",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544122,
+          47.372076
+        ]
+      },
+      "properties": {
+        "visotor": "1 Handwerker-",
+        "guest_id": 32,
+        "date": "1780-07-28",
+        "inn_name": "LEUEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544448,
+          47.369267
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Schneeli von Glarus.",
+        "guest_id": 33,
+        "date": "1780-07-28",
+        "inn_name": "ROESSLI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544448,
+          47.369267
+        ]
+      },
+      "properties": {
+        "visotor": "Franz Kurtz von Landeeg-",
+        "guest_id": 34,
+        "date": "1780-07-28",
+        "inn_name": "ROESSLI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544448,
+          47.369267
+        ]
+      },
+      "properties": {
+        "visotor": "2 St Galler Fuhrleuth-",
+        "guest_id": 35,
+        "date": "1780-07-28",
+        "inn_name": "ROESSLI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544122,
+          47.372076
+        ]
+      },
+      "properties": {
+        "visotor": "1 Landmann-",
+        "guest_id": 36,
+        "date": "1780-07-28",
+        "inn_name": "SCHWANEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Carlis de Modena.",
+        "guest_id": 37,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "le Grand de Belfort.",
+        "guest_id": 38,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Blumer von Glarus.",
+        "guest_id": 39,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Profesor Steinsky aus Prag.",
+        "guest_id": 40,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "de Vermenoux, de Paris f. 3.",
+        "guest_id": 41,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Arnaud, de Turin.",
+        "guest_id": 42,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Meifsner von G\u00f6rlitz in Sachfen f. 3.",
+        "guest_id": 43,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Geelwin von Amfterdam f. 4.",
+        "guest_id": 44,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Rathsherr Faefch. Hr. Faefch.",
+        "guest_id": 45,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Obrift Eglinger.",
+        "guest_id": 46,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Pfr. Eglinger und Frau u. Sohn.",
+        "guest_id": 47,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Pfr. Falkeifen, nebft Frau und Sohn.",
+        "guest_id": 48,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Profefor St\u00e4helin, B\u00fcrlich von Bafel.",
+        "guest_id": 49,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Schuch von Saarbr\u00fccken.",
+        "guest_id": 50,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Ehrengesandte von Glarus.",
+        "guest_id": 51,
+        "date": "1780-07-30",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Predarii de Milan, f. 2.",
+        "guest_id": 52,
+        "date": "1780-07-30",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Veit Schmid von B\u00fcblifon.",
+        "guest_id": 53,
+        "date": "1780-07-30",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "1 Handw.",
+        "guest_id": 54,
+        "date": "1780-07-30",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Jgfr. Schweizerin von St. Gallen.",
+        "guest_id": 55,
+        "date": "1780-07-30",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Bernard Martich D'auvergne f. 2.",
+        "guest_id": 56,
+        "date": "1780-07-30",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Auberin de Luneville.",
+        "guest_id": 57,
+        "date": "1780-07-30",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Brix aus B\u00f6hmen.",
+        "guest_id": 58,
+        "date": "1780-07-30",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Pizzala de Milan, f. 2.",
+        "guest_id": 59,
+        "date": "1780-07-30",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "4 Landleuth.",
+        "guest_id": 60,
+        "date": "1780-07-30",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Martin Erhardt von M\u00fchlhaufen.",
+        "guest_id": 61,
+        "date": "1780-07-30",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "Leonhard Fornaro von Langenfee.",
+        "guest_id": 62,
+        "date": "1780-07-30",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Major Tfchudy von Glarus.",
+        "guest_id": 63,
+        "date": "1780-07-30",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "2 Landl.",
+        "guest_id": 64,
+        "date": "1780-07-30",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544122,
+          47.372076
+        ]
+      },
+      "properties": {
+        "visotor": "2 Landl, 3 Handwerker.",
+        "guest_id": 65,
+        "date": "1780-07-30",
+        "inn_name": "LEUEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544448,
+          47.369267
+        ]
+      },
+      "properties": {
+        "visotor": "6 Landleut.",
+        "guest_id": 66,
+        "date": "1780-07-30",
+        "inn_name": "ROESSLI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Carlis de Modena.",
+        "guest_id": 67,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "le Grand de Belfort.",
+        "guest_id": 68,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Blumer von Glarus.",
+        "guest_id": 69,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Professor Steinsky aus Prag.",
+        "guest_id": 70,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "de Vermenoux, de Paris f. 3.",
+        "guest_id": 71,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Meissner von G\u00f6rlitz in Sachsen f. 3.",
+        "guest_id": 72,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Pr. Eglinger und Frau aus Sohm.",
+        "guest_id": 73,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Pfr. Falkeisen, nebst Frau und Sohn, beide von Basel.",
+        "guest_id": 74,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Schuch von Saarbr\u00fccken.",
+        "guest_id": 75,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hugenin Vatter von M\u00fcllhausen.",
+        "guest_id": 76,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Fourrier de Besanson.",
+        "guest_id": 77,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Mad. Boursiere de Paris.",
+        "guest_id": 78,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Maurice, Mr. Rignon. Mr. Bock de Turin.",
+        "guest_id": 79,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Archivarius Schickardt von Stuttgardt.",
+        "guest_id": 80,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Pater Mayr. Pater Teth, Augustiner Ord. von Constanz.",
+        "guest_id": 81,
+        "date": "1780-07-31",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Predarii de Milan, f. 2.",
+        "guest_id": 82,
+        "date": "1780-07-31",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Bride. Hertenstein von Roschach.",
+        "guest_id": 83,
+        "date": "1780-07-31",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "F\u00fcrsprech Widmer, von Sarnenstorff f. 3.",
+        "guest_id": 84,
+        "date": "1780-07-31",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "6 Handw. 2 Landl.",
+        "guest_id": 85,
+        "date": "1780-07-31",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Jgfr. Schweizerin von St. Gallen.",
+        "guest_id": 86,
+        "date": "1780-07-31",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Bernold Marsch D'auvergne f. 4.",
+        "guest_id": 87,
+        "date": "1780-07-31",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Aubertin de Luneville.",
+        "guest_id": 88,
+        "date": "1780-07-31",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "3 Handw.",
+        "guest_id": 89,
+        "date": "1780-07-31",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Pitzala de Milan, f. 5.",
+        "guest_id": 90,
+        "date": "1780-07-31",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Brix aus B\u00f6hmen.",
+        "guest_id": 91,
+        "date": "1780-07-31",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Probst de Bielf f. 2. Mad. Blasius de Rastatt.",
+        "guest_id": 92,
+        "date": "1780-07-31",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Knufs von Winterthur.",
+        "guest_id": 93,
+        "date": "1780-07-31",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "Leonhard Fornaro von L\u00e4ngensee.",
+        "guest_id": 94,
+        "date": "1780-07-31",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Xaveri Kopp von M\u00fcnster.",
+        "guest_id": 95,
+        "date": "1780-07-31",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Rudolph Isler von Teussen- Zellwegner ab Gais.",
+        "guest_id": 96,
+        "date": "1780-07-31",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Emanuel Dionil Berber de Fort Louis f. 2.",
+        "guest_id": 97,
+        "date": "1780-07-31",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Adam Diethelm von Weinfelden f. 4.",
+        "guest_id": 98,
+        "date": "1780-07-31",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Johannes Biler von Immenstadt-",
+        "guest_id": 99,
+        "date": "1780-07-31",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544122,
+          47.372076
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Weissenbach aus Tyrol-",
+        "guest_id": 100,
+        "date": "1780-07-31",
+        "inn_name": "LEUEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544122,
+          47.372076
+        ]
+      },
+      "properties": {
+        "visotor": "2 Handwerker-",
+        "guest_id": 101,
+        "date": "1780-07-31",
+        "inn_name": "LEUEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544448,
+          47.369267
+        ]
+      },
+      "properties": {
+        "visotor": "Franz Kurtz aus Landegg-",
+        "guest_id": 102,
+        "date": "1780-07-31",
+        "inn_name": "ROESSLI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Carlis de Modena.",
+        "guest_id": 103,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "le Grand de Belfort.",
+        "guest_id": 104,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Blumer von Glarus.",
+        "guest_id": 105,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "de Vermenoux, de Paris f. 3.",
+        "guest_id": 106,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Meissner von G\u00f6rlitz in Sachsen f. 3.",
+        "guest_id": 107,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Schuch von Saarbr\u00fccken.",
+        "guest_id": 108,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hugenin Aelter von M\u00fcllhausen.",
+        "guest_id": 109,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Maurice, Mr. Rignon. Mr. Bock de Turin.",
+        "guest_id": 110,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Ryhener, Hr le Grand und Frauen von Basel.",
+        "guest_id": 111,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Schindler von Basel.",
+        "guest_id": 112,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Sigfried von Zo\u00dfngen.",
+        "guest_id": 113,
+        "date": "1780-08-01",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Predarii de Milan, f. 2.",
+        "guest_id": 114,
+        "date": "1780-08-01",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Johannes T\u00fcdj von Altstatten.",
+        "guest_id": 115,
+        "date": "1780-08-01",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Samuel Hunziker von Chaam,",
+        "guest_id": 116,
+        "date": "1780-08-01",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "4 Handw.",
+        "guest_id": 117,
+        "date": "1780-08-01",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Jgfr. Schweizerin von St. Gallen.",
+        "guest_id": 118,
+        "date": "1780-08-01",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Berthold Marsch D'auvergne f. 4.",
+        "guest_id": 119,
+        "date": "1780-08-01",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Francois Monde de Nancy.",
+        "guest_id": 120,
+        "date": "1780-08-01",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Fr. Posterin von Schaffhausen,",
+        "guest_id": 121,
+        "date": "1780-08-01",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "2 Jungfauer,",
+        "guest_id": 122,
+        "date": "1780-08-01",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Pitzala de Milan, f. 5.",
+        "guest_id": 123,
+        "date": "1780-08-01",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Brix aus B\u00f6hmen.",
+        "guest_id": 124,
+        "date": "1780-08-01",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Probst de Biel f. 2. Mad. Bla\u017fius de Rastatt.",
+        "guest_id": 125,
+        "date": "1780-08-01",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Gidinger von Bischoffzell,",
+        "guest_id": 126,
+        "date": "1780-08-01",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Leonhard Fornaro von Langen\u017fee.",
+        "guest_id": 127,
+        "date": "1780-08-01",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "2 Handwerker-",
+        "guest_id": 128,
+        "date": "1780-08-01",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Rudolph Biser von Teussen- Zellweguer ab Gaiss.",
+        "guest_id": 129,
+        "date": "1780-08-01",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Caspar Mengli von Schaffhausen,",
+        "guest_id": 130,
+        "date": "1780-08-01",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "B\u00f6sch von Ebmat f. 2,",
+        "guest_id": 131,
+        "date": "1780-08-01",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "3 Pilger,",
+        "guest_id": 132,
+        "date": "1780-08-01",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544122,
+          47.372076
+        ]
+      },
+      "properties": {
+        "visotor": "Ein Piemontesischer Soldat,",
+        "guest_id": 133,
+        "date": "1780-08-01",
+        "inn_name": "LEUEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544448,
+          47.369267
+        ]
+      },
+      "properties": {
+        "visotor": "Franz Kurtz aus Landegg.",
+        "guest_id": 134,
+        "date": "1780-08-01",
+        "inn_name": "ROESSLI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Carlis de Modena.",
+        "guest_id": 135,
+        "date": "1780-08-02",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "le Grand de Beliort.",
+        "guest_id": 136,
+        "date": "1780-08-02",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Blumer von Glarus.",
+        "guest_id": 137,
+        "date": "1780-08-02",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "de Vermenoux, de Paris f. 3.",
+        "guest_id": 138,
+        "date": "1780-08-02",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Meisner von G\u00f6rlitz in Sachsen f. 3.",
+        "guest_id": 139,
+        "date": "1780-08-02",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hugenin Aelter von M\u00fcllhausen.",
+        "guest_id": 140,
+        "date": "1780-08-02",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Richelmi. Mr. Bock de Turin.",
+        "guest_id": 141,
+        "date": "1780-08-02",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Ryhener, Hr le Grand und Frauen von Basel.",
+        "guest_id": 142,
+        "date": "1780-08-02",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "Hertlinger von Winterthur.",
+        "guest_id": 143,
+        "date": "1780-08-02",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541944,
+          47.371667
+        ]
+      },
+      "properties": {
+        "visotor": "1 Landmann.",
+        "guest_id": 144,
+        "date": "1780-08-02",
+        "inn_name": "SCHWERDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Barade d'Auvergne f. 4.",
+        "guest_id": 145,
+        "date": "1780-08-02",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Benedict Ochsner von Einsidlen.",
+        "guest_id": 146,
+        "date": "1780-08-02",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "Ein Burgunder Glash\u00e4ndler f. 2.",
+        "guest_id": 147,
+        "date": "1780-08-02",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541794,
+          47.371266
+        ]
+      },
+      "properties": {
+        "visotor": "2 Landl. 4 Handwerker.",
+        "guest_id": 148,
+        "date": "1780-08-02",
+        "inn_name": "STORCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Fr. Fosterin von Schaffhausen.",
+        "guest_id": 149,
+        "date": "1780-08-02",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Jgfr. Schweizerin von St. Gallen.",
+        "guest_id": 150,
+        "date": "1780-08-02",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Fran\u00e7ois Monde de Nancy.",
+        "guest_id": 151,
+        "date": "1780-08-02",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54362,
+          47.37313
+        ]
+      },
+      "properties": {
+        "visotor": "Ein Zurzacher Fuhrmann.",
+        "guest_id": 152,
+        "date": "1780-08-02",
+        "inn_name": "ADLER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Mr. Pitzala de Milan, f. 5.",
+        "guest_id": 153,
+        "date": "1780-08-02",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54348,
+          47.372008
+        ]
+      },
+      "properties": {
+        "visotor": "Michael Girtaner f. 5. von St. Gallen.",
+        "guest_id": 154,
+        "date": "1780-08-02",
+        "inn_name": "ROTHHAUS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Leonhard Fornaro von Langenfee.",
+        "guest_id": 155,
+        "date": "1780-08-02",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543257,
+          47.373377
+        ]
+      },
+      "properties": {
+        "visotor": "1 Pilger.",
+        "guest_id": 156,
+        "date": "1780-08-02",
+        "inn_name": "HIRSCHEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Grob von Wattweil.",
+        "guest_id": 157,
+        "date": "1780-08-02",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Hartmann von Schefftenau f. 2.",
+        "guest_id": 158,
+        "date": "1780-08-02",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544542,
+          47.36844
+        ]
+      },
+      "properties": {
+        "visotor": "Chom & Comp von Glarus f. 9.",
+        "guest_id": 159,
+        "date": "1780-08-02",
+        "inn_name": "RAABEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544122,
+          47.372076
+        ]
+      },
+      "properties": {
+        "visotor": "1 Landmann.",
+        "guest_id": 160,
+        "date": "1780-08-02",
+        "inn_name": "LEUEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544448,
+          47.369267
+        ]
+      },
+      "properties": {
+        "visotor": "Hr. Unterv. M\u00fcller von Schmerfkon.",
+        "guest_id": 161,
+        "date": "1780-08-02",
+        "inn_name": "ROESSL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544448,
+          47.369267
+        ]
+      },
+      "properties": {
+        "visotor": "Georg Witt von Gebistorf.",
+        "guest_id": 162,
+        "date": "1780-08-02",
+        "inn_name": "ROESSL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544448,
+          47.369267
+        ]
+      },
+      "properties": {
+        "visotor": "Ein Zurzacher Fuhrmann.",
+        "guest_id": 163,
+        "date": "1780-08-02",
+        "inn_name": "ROESSL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544448,
+          47.369267
+        ]
+      },
+      "properties": {
+        "visotor": "2 Pilger.",
+        "guest_id": 164,
+        "date": "1780-08-02",
+        "inn_name": "ROESSL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.544122,
+          47.372076
+        ]
+      },
+      "properties": {
+        "visotor": "Ein Gerwer von Immenstadt.",
+        "guest_id": 165,
+        "date": "1780-08-02",
+        "inn_name": "SCHWANEN"
+      }
+    }
+  ]
+}
