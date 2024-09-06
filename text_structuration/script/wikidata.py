@@ -1,11 +1,7 @@
 import pandas as pd
 import requests
-from .txt_structuration_2 import process_txt_file
-
 
 titles = ['Hr', 'Mr', 'Fr', 'Herr', 'Monsieur', 'Frau', 'Madame', 'Jkr', 'Madm']
-
-print(next(os.walk('../../ideas/ocr_mit_claude'))[1])
 
 def get_wiki_hits(name):
     prefix = "https://de.wikipedia.org/w/api.php?action=opensearch&format=json&search="
