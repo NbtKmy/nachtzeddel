@@ -1,17 +1,18 @@
 import pandas as pd
-#from wikidata.client import Client
+import requests
 
-# Create a Wikidata client
-#client = Client()
+prefix = "https://www.mediawiki.org/w/api.php?action=query&list=search&format=json&srsearch="
 
 # import CSV of nachtzeddel
 records = pd.read_csv('structured_guests_with_inn_ids.csv', header=0)
 names_column = []
+hits_column = []
 confusing_records = []
 confusing_count = 0
 for record in records['Visitor']:
     #print("rec: " + record)
     names = []
+    hit_names = []
 
     # stop on confusion
     confusing = False
@@ -72,17 +73,28 @@ for record in records['Visitor']:
                 next_no_period = True
                 new_name = False
         for name in visitor_list_names:
+            r = requests.get(prefix + name)
             names.append(name)
-    #print(names)  
+            results = r.json()
+            #print(results)
+            hits = results['query']['searchinfo']['totalhits']
+            #print(hits)
+            if hits > 0:
+                hit_names.append(name + " (" + str(hits) + ")")
+    #print(names)
+
     names_column.append(', '.join(names))
+    hits_column.append(', '.join(hit_names))
 print("confusing_count: " + str(confusing_count))
 
 # add names to records
 records['Names'] = names_column
+records['Hits'] = hits_column
 
 # save records
 records.to_csv('hotels_with_names_extracted.csv', index=False, encoding='utf-8')
 
+#print(r.json())
 #for name in names:
 #    print(name)
     # Search for the name in Wikidata
