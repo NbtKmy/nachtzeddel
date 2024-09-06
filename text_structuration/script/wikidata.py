@@ -1,8 +1,11 @@
 import pandas as pd
 import requests
+from .txt_structuration_2 import process_txt_file
 
 
 titles = ['Hr', 'Mr', 'Fr', 'Herr', 'Monsieur', 'Frau', 'Madame', 'Jkr', 'Madm']
+
+print(next(os.walk('../../ideas/ocr_mit_claude'))[1])
 
 def get_wiki_hits(name):
     prefix = "https://de.wikipedia.org/w/api.php?action=opensearch&format=json&search="
@@ -25,18 +28,31 @@ for record in records['Visitor']:
     hit_names = []
 
     # clean the record
+    for title in titles:
+        if record == title:
+            continue
     record = record.replace(' f. 1.', '.')
     record = record.replace(' f. 2.', '.')
+    record = record.replace(' ſ. 2.', '.')
     record = record.replace(' f. 3.', '.')
     record = record.replace(' f. 4.', '.')
+    record = record.replace('Mr-', 'Mr.')
+    record = record.replace('Mr ', 'Mr.')
+    record = record.replace('Hr ', 'Hr.')
+    record = record.replace('Landl-', 'Landl')
+    record = record.replace('-Herr', '. Herr')
+    record = record.replace(' und ', ' & ')
+    record = record.replace('& 1', '. 1')
+    record = record.replace('& 2', '. 2')
+    record = record.replace('& 3', '. 3')
+    record = record.replace('& 4', '. 4')
+    record = record.replace(' & Frau', '')
 
     # stop on confusion
     confusing = False
     if ':' in record:
         confusing = True
-    if 'und' in record:
-        confusing = True
-    if '-' in record and "Portrait-Mahler" not in record and "Comödien-Director" not in record and "Cayauner-händler" not in record and "Capaunen-händler" not in record:
+    if '-' in record:
         confusing = True
     if '&' in record:
         confusing = True
@@ -91,11 +107,8 @@ for record in records['Visitor']:
                 new_name = False
         for name in visitor_list_names:
             names.append(name)
-            r = requests.get(new_prefix + name)
-            results = r.json()
-            #print(results)
-            #hits = results['query']['searchinfo']['totalhits']
-            hits = results[3]
+            """
+            hits = get_wiki_hits(name)
             #print(hits)
             if len(hits) > 0:
                 hit_names.append(name + " (" + str(' '.join(hits)) + ")")
@@ -105,24 +118,18 @@ for record in records['Visitor']:
                 if title in name:
                     hits = []
                     name = name.replace(title, '')
-                    if len(name) > 0:
-                        r = requests.get(new_prefix + name)
-                        results = r.json()
-                        hits = results[3]
-                        if len(hits) > 0:
-                            hit_names.append(name + " (" + str(' '.join(hits)) + ")")
+                    hits = get_wiki_hits(name)
+                    if len(hits) > 0:
+                        hit_names.append(name + " (" + str(' '.join(hits)) + ")")
             
             # check hits without von something
             if 'von' in name:
                 hits = []
                 name = name[slice(0, name.index('von'))]
-                if len(name) > 0:
-                    r = requests.get(new_prefix + name)
-                    results = r.json()
-                    print(results)
-                    hits = results[3]
-                    if len(hits) > 0:
-                        hit_names.append(name + " (" + str(' '.join(hits)) + ")")
+                hits = get_wiki_hits(name)
+                if len(hits) > 0:
+                    hit_names.append(name + " (" + str(' '.join(hits)) + ")")
+                    """
     #print(names)
 
     names_column.append(', '.join(names))
