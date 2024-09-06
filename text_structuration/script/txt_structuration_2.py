@@ -14,7 +14,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Define the directory containing your text files
-txt_directory = 'txt/'
+txt_directory = '../../ideas/ocr_mit_claude'
 
 # Inns to look for in the text
 inns = ['SCHWERDT', 'STORCHEN', 'ADLER', 'HIRSCHEN', 'RAABEN', 'LEUEN', 'ROESSLI', 'SCHWANEN']
