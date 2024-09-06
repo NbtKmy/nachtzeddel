@@ -1,0 +1,11 @@
+Hotel,Geo,gnd/wiki,www,lat,lon,ID
+SCHWERDT,https://www.openstreetmap.org/?mlat=47.371667&mlon=8.541944&zoom=15#map=18/47.371865/8.542393,https://d-nb.info/gnd/1048245799,,"47,371667","8,541944",1
+STORCHEN,https://www.openstreetmap.org/node/270802863,https://d-nb.info/gnd/1085930416,storchen.ch/de,"47,3712661","8,5417938",2
+ADLER,https://www.openstreetmap.org/node/10763310099,https://d-nb.info/gnd/1087514088,hotel-adler.ch/,"47,37313","8,54362",3
+HIRSCHEN,https://www.openstreetmap.org/node/370839580#map=19/47.373377/8.543257,https://de.m.wikipedia.org/wiki/Datei:Hotel_Hirschen_Niederdorf.JPG,www.hirschen-zuerich.ch/,"47,3733773","8,5432575",5
+RAABEN,https://www.openstreetmap.org/way/8149536,https://d-nb.info/gnd/1053320167,,"47,3684397","8,54454245",6
+SCHWANEN,https://www.openstreetmap.org/node/5893045403,,,"47,372076","8,5441224",9
+LEUEN,https://www.openstreetmap.org/node/2886648290,,,"47,372076","8,5441224",7
+ROESSLI,https://www.openstreetmap.org/node/11777908597#map=18/47.369266/8.545384,,www.hotelroessli.ch/hotel-roessli-zuerich,"47,3692673","8,5444475",8
+ROTHAUS,https://www.openstreetmap.org/node/4833061585,,www.marktgassehotel.ch/,"47,3720083","8,5434795",4
+ROESSL,https://www.openstreetmap.org/node/11777908597#map=18/47.369266/8.545384,,www.hotelroessli.ch/hotel-roessli-zuerich,"47,3692673","8,5444475",10
