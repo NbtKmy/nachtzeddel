@@ -14,7 +14,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Define the directory containing your text files
-txt_directory = '../../ideas/ocr_mit_claude'
+txt_directory = 'txt/'
 
 # Inns to look for in the text
 inns = ['SCHWERDT', 'STORCHEN', 'ADLER', 'HIRSCHEN', 'RAABEN', 'LEUEN', 'ROESSLI', 'SCHWANEN']
@@ -55,16 +55,42 @@ def parse_file(filepath):
     else:
         return None, None, None  # If no date is found, skip the file
 
+
+    '''
     # Extract data for each inn
-    inn_data = {inn: '' for inn in inns}
+    inn_data = {inn: [] for inn in inns}
     for inn in inns:
         # Use regex to extract the text under each inn
-        inn_match = re.search(rf'{inn}\.\s*(.*?)(?=\n[A-Z]+\.|\Z)', content, re.DOTALL)
+        inn_match = re.search(rf'{inn}[-.]\s*(.*?)(?=\n[A-Z]+\.|\Z)', content, re.DOTALL)
         if inn_match:
             # Clean up the text (remove newlines and extra spaces)
-            visitors = ' '.join(inn_match.group(1).split()).strip()
+            visitors = inn_match.group(1).strip().split('\n')
+            visitors = [v.strip() for v in visitors]
+            inn_data[inn] = visitors
+    print(inn_data)
+    '''
+    inn_data = {}
+    inn = None
+    visitors = []
+    lines = content.splitlines()[2:]
+    for line in lines:
+        if line.isupper():
+            print(line)
+            if inn:
+                inn_data[inn] = visitors
+            # Start a new key and reset the list
+            inn = re.sub(r'[^A-Z]+$', '', line.strip())
+            visitors = []
+        else:
+            # Add non-uppercase lines to the current list
+            if inn and len(line) > 0:
+                visitors.append(line.strip())
+    
+        # Add the last collected key-value pair to the dictionary
+        if inn:
             inn_data[inn] = visitors
 
+        print(inn_data)
     return historical_date, modern_date, inn_data
 
 # Initialize an empty list to hold the structured data
@@ -85,8 +111,9 @@ for filename in files:
         # Iterate over each inn and process visitors
         for inn, visitors in inn_data.items():
             if visitors:  # If there are visitors listed for the inn
-                visitor_list = visitors.split(', ')  # Separate individual visitors
-                for visitor in visitor_list:
+                #visitor_list = visitors.split(', ')  # Separate individual visitors
+                for visitor in visitors:
+                    print(visitor)
                     if visitor:
                         # Add the structured data for each individual visitor
                         structured_data.append({
@@ -115,4 +142,5 @@ df_structured = df_structured[['Visit_ID', 'Historical Date', 'Modern Date', 'In
 print(df_structured.head())
 
 # Save the structured DataFrame to a new CSV file with UTF-8 encoding
-df_structured.to_csv('structured_guests_with_inn_ids.csv', index=False, encoding='utf-8')
+df_structured.to_csv('structured_guests_with_inn_ids_sarah.csv', index=False, encoding='utf-8')
+
