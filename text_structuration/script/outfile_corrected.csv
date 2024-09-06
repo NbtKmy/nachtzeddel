@@ -1,0 +1,194 @@
+Visit_ID,Historical Date,Modern Date,Inn,Inn_ID,Visitor,Guest_ID,Filename,Family_Name,First_Name,Title,Place_of_Origin,Profession,Gender,Number_of_Guests
+1,28 Julii 1780,1780-07-28,SCHWERDT,1,Hr. Blumer von Glarus.,1,0002.txt,Blumer,,Hr.,Glarus,,,
+2,28 Julii 1780,1780-07-28,SCHWERDT,1,Profeffor Steinsky aus Prag.,2,0002.txt,Steinsky,,Profeffor,Prag,,,
+3,28 Julii 1780,1780-07-28,SCHWERDT,1,Meissner von Görlitz in Sachsen f. 3.,3,0002.txt,Meissner,,von Görlitz in Sachsen,,,3
+4,28 Julii 1780,1780-07-28,SCHWERDT,1,Mr. Carlis de Modena.,4,0002.txt,Modena, Carlis, Mr., , , , 
+5,28 Julii 1780,1780-07-28,SCHWERDT,1,le Grand de Belfort.,5,0002.txt,de Belfort,,le Grand,,male,
+6,28 Julii 1780,1780-07-28,SCHWERDT,1,Rebattu de Versailles.,6,0002.txt,Rebattu,,de Versailles,,,,
+7,28 Julii 1780,1780-07-28,SCHWERDT,1,"de Vermenoux, de Paris f. 3.",7,0002.txt,de Vermenoux, , , Paris, , , 3
+8,28 Julii 1780,1780-07-28,SCHWERDT,1,Cislago di Verona.,8,0002.txt,, , , Cislago di Verona, , ,
+9,28 Julii 1780,1780-07-28,SCHWERDT,1,"Arnaud, Mr. Dury de Turin.",9,0002.txt,Arnaud,,Mr.,Turin,,,
+10,28 Julii 1780,1780-07-28,SCHWERDT,1,"Berteaud, Mr. Simon de Chalon sur Sonne.",10,0002.txt,Berteaud, Simon, Mr., Chalon sur Sonne, , ,
+11,28 Julii 1780,1780-07-28,SCHWERDT,1,Anselme de Lyon.,11,0002.txt,Anselme,de,Lyon,,,,
+12,28 Julii 1780,1780-07-28,STORCHEN,2,"Mr. Predarii de Milan, f. 2.",12,0002.txt,Predarii, , Mr., Milan, , , 2
+13,28 Julii 1780,1780-07-28,STORCHEN,2,Hr. Kühnhold von Nürnberg.,13,0002.txt,Kühnhold,,Hr.,Nürnberg,,,
+14,28 Julii 1780,1780-07-28,STORCHEN,2,Ein Glashändler aus dem Schwarzwald.,14,0002.txt,, , , Schwarzwald, Glashändler, , 
+15,28 Julii 1780,1780-07-28,STORCHEN,2,1 Handw.,15,0002.txt,Handwerck, , , , , , f.1
+16,28 Julii 1780,1780-07-28,ADLER,3,Jgfr. Schweizerin von St. Gallen.,16,0002.txt,, , Jgfr., St. Gallen, , ,
+17,28 Julii 1780,1780-07-28,ADLER,3,Bernold Marsch D'auvergne f. 2.,17,0002.txt,Marsch,Bernold,D'auvergne,,,male,2
+18,28 Julii 1780,1780-07-28,ADLER,3,Fr. Posterin von Schaffhausen.,18,0002.txt,Posterin,,,Schaffhausen,,,
+19,28 Julii 1780,1780-07-28,ROTHHAUS,4,Hr. Brix aus Böhmen.,19,0002.txt,Brix,,Hr.,Böhmen,,,
+20,28 Julii 1780,1780-07-28,ROTHHAUS,4,"Mr. Pizzala de Milan, f. 2.",20,0002.txt,Pizzala,,Mr.,Milan,,male,2
+21,28 Julii 1780,1780-07-28,ROTHHAUS,4,Mad. Marianne Blasius de Rastadt f. 2.,21,0002.txt,Blasius de Rastadt, Marianne, Mad., , , , 2
+22,28 Julii 1780,1780-07-28,ROTHHAUS,4,2 Lándleuth.,22,0002.txt,Lándleuth,,2,,,,
+23,28 Julii 1780,1780-07-28,HIRSCHEN,5,Hr. Martin Erhardt von Mühlhausen.,23,0002.txt,Erhardt,Martin,Hr.,Mühlhausen,,male,
+24,28 Julii 1780,1780-07-28,HIRSCHEN,5,Leonhard Fornaro von Langensee.,24,0002.txt,Fornaro,Leonhard,,Langensee,,,
+25,28 Julii 1780,1780-07-28,HIRSCHEN,5,Ein Bedienter von Hrn. Baron v. Uskiel von Stuttgardt.,25,0002.txt,, , , Stuttgardt, Bedienter, , 
+26,28 Julii 1780,1780-07-28,RAABEN,6,Jgfr. Elisabetha Rieggi von Eichenbach f. 2.,26,0002.txt,Rieggi,Elisabetha,Jgfr.,Eichenbach,,female,2
+27,28 Julii 1780,1780-07-28,RAABEN,6,Anna Maria Kleinlin von Welen f. 2.,27,0002.txt,Kleinlin von Welen,Anna Maria,,,,,2
+28,28 Julii 1780,1780-07-28,RAABEN,6,Salama Strikler von Glarus f. 2.,28,0002.txt,Strikler,Salama,,Glarus,,female,2
+29,28 Julii 1780,1780-07-28,RAABEN,6,Marianne Meimnoud von Landau.,29,0002.txt,Meimnoud von Landau,Marianne,,,,,
+30,28 Julii 1780,1780-07-28,RAABEN,6,Hr. Carl Horret von Toggen-,30,0002.txt,Horret, Carl, Hr., Toggen, , ," 
+
+"
+31,28 Julii 1780,1780-07-28,RAABEN,6,Arnold Holsteln von Neuburg-,31,0002.txt,Holsteln, Arnold, von Neuburg, , , ," 
+"
+32,28 Julii 1780,1780-07-28,LEUEN,7,1 Handwerker-,32,0002.txt,Handwerker,,,,,,
+33,28 Julii 1780,1780-07-28,ROESSLI,8,Hr. Schneeli von Glarus.,33,0002.txt,Schneeli,,Hr.,Glarus,,,
+34,28 Julii 1780,1780-07-28,ROESSLI,8,Franz Kurtz von Landeeg-,34,0002.txt,Kurtz,Franz,,Landeeg,,,"
+
+"
+35,28 Julii 1780,1780-07-28,ROESSLI,8,2 St Galler Fuhrleuth-,35,0002.txt,St Galler, , , , , , 2
+36,28 Julii 1780,1780-07-28,SCHWANEN,9,1 Landmann-,36,0002.txt,Landmann,,,,,,,
+37,30 Julii 1780,1780-07-30,SCHWERDT,1,Mr. Carlis de Modena.,37,0004.txt,de Modena, Carl, Mr., , , ,
+38,30 Julii 1780,1780-07-30,SCHWERDT,1,le Grand de Belfort.,38,0004.txt,le Grand, , , Belfort, , ," 
+"
+39,30 Julii 1780,1780-07-30,SCHWERDT,1,Hr. Blumer von Glarus.,39,0004.txt,Blumer,,Hr.,Glarus,,,
+40,30 Julii 1780,1780-07-30,SCHWERDT,1,Profesor Steinsky aus Prag.,40,0004.txt,Steinsky,,Profesor,Prag,,,
+41,30 Julii 1780,1780-07-30,SCHWERDT,1,"de Vermenoux, de Paris f. 3.",41,0004.txt,de Vermenoux,,de,,Paris,,f.3.
+42,30 Julii 1780,1780-07-30,SCHWERDT,1,"Arnaud, de Turin.",42,0004.txt,Arnaud,,,de Turin,,,,
+43,30 Julii 1780,1780-07-30,SCHWERDT,1,Meifsner von Görlitz in Sachfen f. 3.,43,0004.txt,Meifsner,,von Görlitz in Sachfen,,m,3
+44,30 Julii 1780,1780-07-30,SCHWERDT,1,Geelwin von Amfterdam f. 4.,44,0004.txt,von Amfterdam,Geelwin,,,Amfterdam,,4
+45,30 Julii 1780,1780-07-30,SCHWERDT,1,Rathsherr Faefch. Hr. Faefch.,45,0004.txt,Faefch,Faefch,Hr.,Rathsherr,,,,
+46,30 Julii 1780,1780-07-30,SCHWERDT,1,Obrift Eglinger.,46,0004.txt,Eglinger,,,,,male,
+47,30 Julii 1780,1780-07-30,SCHWERDT,1,Pfr. Eglinger und Frau u. Sohn.,47,0004.txt,Eglinger, , Pfr., , , , 3
+48,30 Julii 1780,1780-07-30,SCHWERDT,1,"Pfr. Falkeifen, nebft Frau und Sohn.",48,0004.txt,Falkeifen, , Pfr., , , , 3
+49,30 Julii 1780,1780-07-30,SCHWERDT,1,"Profefor Stähelin, Bürlich von Bafel.",49,0004.txt,Stähelin,,Profefor,Bürlich von Bafel,,male,
+50,30 Julii 1780,1780-07-30,SCHWERDT,1,Schuch von Saarbrücken.,50,0004.txt,Schuch, von Saarbrücken,,,,,
+51,30 Julii 1780,1780-07-30,SCHWERDT,1,Ehrengesandte von Glarus.,51,0004.txt,, , Ehrengesandte von Glarus, , , ," 
+"
+52,30 Julii 1780,1780-07-30,STORCHEN,2,"Mr. Predarii de Milan, f. 2.",52,0004.txt,Predarii, de Milan, Mr., Milan, , , 2
+53,30 Julii 1780,1780-07-30,STORCHEN,2,Veit Schmid von Büblifon.,53,0004.txt,Schmid, Veit, , von Büblifon, , ,
+54,30 Julii 1780,1780-07-30,STORCHEN,2,1 Handw.,54,0004.txt,Handw.,,,,,,,
+55,30 Julii 1780,1780-07-30,ADLER,3,Jgfr. Schweizerin von St. Gallen.,55,0004.txt,, , Jgfr., St. Gallen, , ,
+56,30 Julii 1780,1780-07-30,ADLER,3,Bernard Martich D'auvergne f. 2.,56,0004.txt,Martich,Bernard,,D'auvergne,,male,2
+57,30 Julii 1780,1780-07-30,ADLER,3,Mr. Auberin de Luneville.,57,0004.txt,de Luneville, Auberin, Mr., , , ,
+58,30 Julii 1780,1780-07-30,ROTHHAUS,4,Hr. Brix aus Böhmen.,58,0004.txt,Brix,,Hr.,Böhmen,,,
+59,30 Julii 1780,1780-07-30,ROTHHAUS,4,"Mr. Pizzala de Milan, f. 2.",59,0004.txt,Pizzala,,Mr.,Milan,,Male,2
+60,30 Julii 1780,1780-07-30,ROTHHAUS,4,4 Landleuth.,60,0004.txt,,4 Landleuth.,,,,,4
+61,30 Julii 1780,1780-07-30,HIRSCHEN,5,Hr. Martin Erhardt von Mühlhaufen.,61,0004.txt,Erhardt, Martin, Hr., Mühlhaufen, , ,
+62,30 Julii 1780,1780-07-30,HIRSCHEN,5,Leonhard Fornaro von Langenfee.,62,0004.txt,Fornaro von Langenfee,Leonhard,,,,,
+63,30 Julii 1780,1780-07-30,RAABEN,6,Hr. Major Tfchudy von Glarus.,63,0004.txt,Tfchudy, , Hr. Major, Glarus, , , 
+64,30 Julii 1780,1780-07-30,RAABEN,6,2 Landl.,64,0004.txt,Landl,,,,,,2
+65,30 Julii 1780,1780-07-30,LEUEN,7,"2 Landl, 3 Handwerker.",65,0004.txt,, , , , , ," 2
+", , , , , , 3
+66,30 Julii 1780,1780-07-30,ROESSLI,8,6 Landleut.,66,0004.txt,"```
+Landleut.",,,,,,"6
+```"
+67,31 Julii 1780,1780-07-31,SCHWERDT,1,Mr. Carlis de Modena.,67,0006.txt,de Modena, Carl, Mr., Modena, , ,
+68,31 Julii 1780,1780-07-31,SCHWERDT,1,le Grand de Belfort.,68,0006.txt,le Grand, , , Belfort, , ," 
+"
+69,31 Julii 1780,1780-07-31,SCHWERDT,1,Hr. Blumer von Glarus.,69,0006.txt,Blumer,,Hr.,Glarus,,,
+70,31 Julii 1780,1780-07-31,SCHWERDT,1,Professor Steinsky aus Prag.,70,0006.txt,Steinsky,,Professor,Prag,,,
+71,31 Julii 1780,1780-07-31,SCHWERDT,1,"de Vermenoux, de Paris f. 3.",71,0006.txt,de Vermenoux,,de,,Paris,,f. 3.
+72,31 Julii 1780,1780-07-31,SCHWERDT,1,Meissner von Görlitz in Sachsen f. 3.,72,0006.txt,Meissner, , von Görlitz, Sachsen, , , 3
+73,31 Julii 1780,1780-07-31,SCHWERDT,1,Pr. Eglinger und Frau aus Sohm.,73,0006.txt,Eglinger, , Pr., Sohm, , , 
+74,31 Julii 1780,1780-07-31,SCHWERDT,1,"Pfr. Falkeisen, nebst Frau und Sohn, beide von Basel.",74,0006.txt,Falkeisen, , Pfr., Basel, , , 3
+75,31 Julii 1780,1780-07-31,SCHWERDT,1,Schuch von Saarbrücken.,75,0006.txt,Schuch, von Saarbrücken,,,,,,
+76,31 Julii 1780,1780-07-31,SCHWERDT,1,Hugenin Vatter von Müllhausen.,76,0006.txt,Hugenin,,Vatter von Müllhausen,,,,
+77,31 Julii 1780,1780-07-31,SCHWERDT,1,Fourrier de Besanson.,77,0006.txt,Fourrier, de Besanson,,,,,
+78,31 Julii 1780,1780-07-31,SCHWERDT,1,Mad. Boursiere de Paris.,78,0006.txt,Boursiere,,Mad.,Paris,,,,
+79,31 Julii 1780,1780-07-31,SCHWERDT,1,"Mr. Maurice, Mr. Rignon. Mr. Bock de Turin.",79,0006.txt,Maurice,,,,,,,"
+Rignon",,,,,,,"
+Bock de Turin",,,,,,
+80,31 Julii 1780,1780-07-31,SCHWERDT,1,Hr. Archivarius Schickardt von Stuttgardt.,80,0006.txt,Schickardt,,Hr.,Stuttgardt,Archivarius,,
+81,31 Julii 1780,1780-07-31,SCHWERDT,1,"Pater Mayr. Pater Teth, Augustiner Ord. von Constanz.",81,0006.txt,Mayr, Pater, , Constanz, Augustiner Ord., ," 
+Teth", Pater, , Constanz, Augustiner Ord., ,
+82,31 Julii 1780,1780-07-31,STORCHEN,2,"Mr. Predarii de Milan, f. 2.",82,0006.txt,Predarii, , Mr., Milan, , male, 2
+83,31 Julii 1780,1780-07-31,STORCHEN,2,Bride. Hertenstein von Roschach.,83,0006.txt,Hertenstein von Roschach,,,Bride,,,
+84,31 Julii 1780,1780-07-31,STORCHEN,2,"Fürsprech Widmer, von Sarnenstorff f. 3.",84,0006.txt,Widmer,,Fürsprech,Sarnenstorff,,male,3
+85,31 Julii 1780,1780-07-31,STORCHEN,2,6 Handw. 2 Landl.,85,0006.txt,Handw.,,,Handwerker,,"2
+Landl.",,,Landlord,,2
+86,31 Julii 1780,1780-07-31,ADLER,3,Jgfr. Schweizerin von St. Gallen.,86,0006.txt,, , Jgfr., St. Gallen, , ,
+87,31 Julii 1780,1780-07-31,ADLER,3,Bernold Marsch D'auvergne f. 4.,87,0006.txt,Marsch,Bernold,,D'auvergne,,male,4
+88,31 Julii 1780,1780-07-31,ADLER,3,Mr. Aubertin de Luneville.,88,0006.txt,Aubertin de Luneville,,Mr.,,,male,"  
+"
+89,31 Julii 1780,1780-07-31,ADLER,3,3 Handw.,89,0006.txt,"Certainly! Here is the extracted information in the requested comma-separated format:
+
+Handw.",,,Handw.,,,3
+90,31 Julii 1780,1780-07-31,ROTHHAUS,4,"Mr. Pitzala de Milan, f. 5.",90,0006.txt,Pitzala, , Mr., Milan, , , 5
+91,31 Julii 1780,1780-07-31,ROTHHAUS,4,Hr. Brix aus Böhmen.,91,0006.txt,Brix,,Hr.,Böhmen,,,
+92,31 Julii 1780,1780-07-31,ROTHHAUS,4,Probst de Bielf f. 2. Mad. Blasius de Rastatt.,92,0006.txt,Bielf, Probst, Mad., , , , 2
+93,31 Julii 1780,1780-07-31,HIRSCHEN,5,Hr. Knufs von Winterthur.,93,0006.txt,Knufs,,Hr.,Winterthur,,,
+94,31 Julii 1780,1780-07-31,HIRSCHEN,5,Leonhard Fornaro von Längensee.,94,0006.txt,Fornaro,Leonhard,,von Längensee,,,
+95,31 Julii 1780,1780-07-31,RAABEN,6,Hr. Xaveri Kopp von Münster.,95,0006.txt,Kopp, Xaveri, Hr., Münster,,,,
+96,31 Julii 1780,1780-07-31,RAABEN,6,Rudolph Isler von Teussen- Zellwegner ab Gais.,96,0006.txt,Isler, Rudolph, von Teussen-Zellwegner, Gais, , , 
+97,31 Julii 1780,1780-07-31,RAABEN,6,Emanuel Dionil Berber de Fort Louis f. 2.,97,0006.txt,Berber, Emanuel Dionil, de Fort Louis, , , , 2
+98,31 Julii 1780,1780-07-31,RAABEN,6,Adam Diethelm von Weinfelden f. 4.,98,0006.txt,von Weinfelden, Adam Diethelm, , , , , 4
+99,31 Julii 1780,1780-07-31,RAABEN,6,Johannes Biler von Immenstadt-,99,0006.txt,Biler, Johannes, , Immenstadt, , ,
+100,31 Julii 1780,1780-07-31,LEUEN,7,Hr. Weissenbach aus Tyrol-,100,0006.txt,Weissenbach,,Hr.,Tyrol,,,,
+101,31 Julii 1780,1780-07-31,LEUEN,7,2 Handwerker-,101,0006.txt,Handwerker,,,,,,
+102,31 Julii 1780,1780-07-31,ROESSLI,8,Franz Kurtz aus Landegg-,102,0006.txt,Kurtz, Franz, , Landegg, , ," 
+
+"
+103,1 Augusti 1780,1780-08-01,SCHWERDT,1,Mr. Carlis de Modena.,103,0008.txt,de Modena, Carlis, Mr., , , ,
+104,1 Augusti 1780,1780-08-01,SCHWERDT,1,le Grand de Belfort.,104,0008.txt,le Grand,,de Belfort,,,,
+105,1 Augusti 1780,1780-08-01,SCHWERDT,1,Hr. Blumer von Glarus.,105,0008.txt,Blumer,,,Glarus,,,
+106,1 Augusti 1780,1780-08-01,SCHWERDT,1,"de Vermenoux, de Paris f. 3.",106,0008.txt,de Vermenoux,,de,Paris,,,"3  
+"
+107,1 Augusti 1780,1780-08-01,SCHWERDT,1,Meissner von Görlitz in Sachsen f. 3.,107,0008.txt,Meissner,,von Görlitz in Sachsen,,,3
+108,1 Augusti 1780,1780-08-01,SCHWERDT,1,Schuch von Saarbrücken.,108,0008.txt,Schuch von Saarbrücken,,,,,,
+109,1 Augusti 1780,1780-08-01,SCHWERDT,1,Hugenin Aelter von Müllhausen.,109,0008.txt,Hugenin,,von Müllhausen,,,,
+110,1 Augusti 1780,1780-08-01,SCHWERDT,1,"Mr. Maurice, Mr. Rignon. Mr. Bock de Turin.",110,0008.txt,Maurice,,,Mr.,,,"  
+Rignon",,,Mr.,,,"  
+Bock de Turin",,,Mr.,,,  
+111,1 Augusti 1780,1780-08-01,SCHWERDT,1,"Hr. Ryhener, Hr le Grand und Frauen von Basel.",111,0008.txt,Ryhener,,,,Hr,,"  
+le Grand",,,,Hr,,
+112,1 Augusti 1780,1780-08-01,SCHWERDT,1,Schindler von Basel.,112,0008.txt,Schindler,,von Basel,,,,
+113,1 Augusti 1780,1780-08-01,SCHWERDT,1,Sigfried von Zoßngen.,113,0008.txt,von Zoßngen, Sigfried,,,,,
+114,1 Augusti 1780,1780-08-01,STORCHEN,2,"Mr. Predarii de Milan, f. 2.",114,0008.txt,Predarii, , Mr., Milan, , , 2
+115,1 Augusti 1780,1780-08-01,STORCHEN,2,Johannes Tüdj von Altstatten.,115,0008.txt,Tüdj,Johannes,,Altstatten,,,
+116,1 Augusti 1780,1780-08-01,STORCHEN,2,"Samuel Hunziker von Chaam,",116,0008.txt,Hunziker,Samuel,,,Chaam,,
+117,1 Augusti 1780,1780-08-01,STORCHEN,2,4 Handw.,117,0008.txt,"I'm ready to help with your request. Here is the extracted information in the desired comma-separated format:
+
+Handw.",,,Handw.,Handw.,,4
+118,1 Augusti 1780,1780-08-01,ADLER,3,Jgfr. Schweizerin von St. Gallen.,118,0008.txt,, , Jgfr., St. Gallen, , ,
+119,1 Augusti 1780,1780-08-01,ADLER,3,Berthold Marsch D'auvergne f. 4.,119,0008.txt,D'auvergne, Berthold Marsch, , , , , 4
+120,1 Augusti 1780,1780-08-01,ADLER,3,Francois Monde de Nancy.,120,0008.txt,Monde, Francois, , Nancy, , ,
+121,1 Augusti 1780,1780-08-01,ADLER,3,"Fr. Posterin von Schaffhausen,",121,0008.txt,Posterin,Fr.,,Schaffhausen,,,
+122,1 Augusti 1780,1780-08-01,ADLER,3,"2 Jungfauer,",122,0008.txt,Jungfauer,,,,,,
+123,1 Augusti 1780,1780-08-01,ROTHHAUS,4,"Mr. Pitzala de Milan, f. 5.",123,0008.txt,Pitzala, de Milan, Mr., Milan, , , 5
+124,1 Augusti 1780,1780-08-01,ROTHHAUS,4,Hr. Brix aus Böhmen.,124,0008.txt,Brix,,Hr.,Böhmen,,,
+125,1 Augusti 1780,1780-08-01,ROTHHAUS,4,Probst de Biel f. 2. Mad. Blaſius de Rastatt.,125,0008.txt,Probst,,Mad.,Biel,,female,2
+126,1 Augusti 1780,1780-08-01,ROTHHAUS,4,"Hr. Gidinger von Bischoffzell,",126,0008.txt,Gidinger von Bischoffzell,,Hr.,,,,,
+127,1 Augusti 1780,1780-08-01,HIRSCHEN,5,Hr. Leonhard Fornaro von Langenſee.,127,0008.txt,Fornaro, Leonhard, Hr., Langenſee,,,,
+128,1 Augusti 1780,1780-08-01,HIRSCHEN,5,2 Handwerker-,128,0008.txt,Handwerker,,,,,,
+129,1 Augusti 1780,1780-08-01,RAABEN,6,Hr. Rudolph Biser von Teussen- Zellweguer ab Gaiss.,129,0008.txt,Biser, Rudolph, Hr., Gaiss, , ,
+130,1 Augusti 1780,1780-08-01,RAABEN,6,"Caspar Mengli von Schaffhausen,",130,0008.txt,Mengli, Caspar, von Schaffhausen,,,,"
+"
+131,1 Augusti 1780,1780-08-01,RAABEN,6,"Bösch von Ebmat f. 2,",131,0008.txt,Bösch von Ebmat,,,,,,2
+132,1 Augusti 1780,1780-08-01,RAABEN,6,"3 Pilger,",132,0008.txt,Pilger,,,3
+133,1 Augusti 1780,1780-08-01,LEUEN,7,"Ein Piemontesischer Soldat,",133,0008.txt,,Ein,,Piemontesischer Soldat,,,
+134,1 Augusti 1780,1780-08-01,ROESSLI,8,Franz Kurtz aus Landegg.,134,0008.txt,Kurtz, Franz, , Landegg, , ,
+135,2 Augusti 1780,1780-08-02,SCHWERDT,1,Mr. Carlis de Modena.,135,0010.txt,Modena, Carlis, Mr., , , ,
+136,2 Augusti 1780,1780-08-02,SCHWERDT,1,le Grand de Beliort.,136,0010.txt,le Grand,de Beliort,,,,,,
+137,2 Augusti 1780,1780-08-02,SCHWERDT,1,Hr. Blumer von Glarus.,137,0010.txt,Blumer,,Hr.,Glarus,,,
+138,2 Augusti 1780,1780-08-02,SCHWERDT,1,"de Vermenoux, de Paris f. 3.",138,0010.txt,de Vermenoux,,de,Paris,,,3
+139,2 Augusti 1780,1780-08-02,SCHWERDT,1,Meisner von Görlitz in Sachsen f. 3.,139,0010.txt,Meisner, von Görlitz, , Sachsen, , , 3
+140,2 Augusti 1780,1780-08-02,SCHWERDT,1,Hugenin Aelter von Müllhausen.,140,0010.txt,Hugenin,,von Müllhausen,,,,
+141,2 Augusti 1780,1780-08-02,SCHWERDT,1,Richelmi. Mr. Bock de Turin.,141,0010.txt,Richelmi,,Mr.,Turin,,,
+142,2 Augusti 1780,1780-08-02,SCHWERDT,1,"Ryhener, Hr le Grand und Frauen von Basel.",142,0010.txt,Ryhener,,Hr le Grand, von Basel,,,,
+143,2 Augusti 1780,1780-08-02,SCHWERDT,1,Hertlinger von Winterthur.,143,0010.txt,Hertlinger,,von Winterthur,,,male
+144,2 Augusti 1780,1780-08-02,SCHWERDT,1,1 Landmann.,144,0010.txt,Landmann,,,,,,,
+145,2 Augusti 1780,1780-08-02,STORCHEN,2,Mr. Barade d'Auvergne f. 4.,145,0010.txt,Barade,d'Auvergne,Mr.,,,4
+146,2 Augusti 1780,1780-08-02,STORCHEN,2,Benedict Ochsner von Einsidlen.,146,0010.txt,Ochsner, Benedict, , Einsidlen, , , 
+147,2 Augusti 1780,1780-08-02,STORCHEN,2,Ein Burgunder Glashändler f. 2.,147,0010.txt,Burgunder,,Ein,,Glashändler,,2
+148,2 Augusti 1780,1780-08-02,STORCHEN,2,2 Landl. 4 Handwerker.,148,0010.txt,, , , , , , 4
+149,2 Augusti 1780,1780-08-02,ADLER,3,Fr. Fosterin von Schaffhausen.,149,0010.txt,Fosterin,,,von Schaffhausen,,male,
+150,2 Augusti 1780,1780-08-02,ADLER,3,Jgfr. Schweizerin von St. Gallen.,150,0010.txt,, , Jgfr., St. Gallen, , ,
+151,2 Augusti 1780,1780-08-02,ADLER,3,François Monde de Nancy.,151,0010.txt,Monde,François,,Nancy,,,
+152,2 Augusti 1780,1780-08-02,ADLER,3,Ein Zurzacher Fuhrmann.,152,0010.txt,, , , Zurzacher, Fuhrmann, ," 
+"
+153,2 Augusti 1780,1780-08-02,ROTHHAUS,4,"Mr. Pitzala de Milan, f. 5.",153,0010.txt,Pitzala, , Mr., Milan, , , 5
+154,2 Augusti 1780,1780-08-02,ROTHHAUS,4,Michael Girtaner f. 5. von St. Gallen.,154,0010.txt,Girtaner,Michael,,St. Gallen,,male,5
+155,2 Augusti 1780,1780-08-02,HIRSCHEN,5,Hr. Leonhard Fornaro von Langenfee.,155,0010.txt,Fornaro,Leonhard,Hr.,Langenfee,,,
+156,2 Augusti 1780,1780-08-02,HIRSCHEN,5,1 Pilger.,156,0010.txt,Pilger,,,,,,,
+157,2 Augusti 1780,1780-08-02,RAABEN,6,Hr. Grob von Wattweil.,157,0010.txt,Grob von Wattweil,,Hr.,,,,
+158,2 Augusti 1780,1780-08-02,RAABEN,6,Hartmann von Schefftenau f. 2.,158,0010.txt,von Schefftenau, Hartmann, , , , , 2
+159,2 Augusti 1780,1780-08-02,RAABEN,6,Chom & Comp von Glarus f. 9.,159,0010.txt,Chom, Comp, von, Glarus, , , 9
+160,2 Augusti 1780,1780-08-02,LEUEN,7,1 Landmann.,160,0010.txt,Landmann,,,,,,,
+161,2 Augusti 1780,1780-08-02,ROESSL,10,Hr. Unterv. Müller von Schmerfkon.,161,0010.txt,Müller, , Hr., Schmerfkon, , , 
+162,2 Augusti 1780,1780-08-02,ROESSL,10,Georg Witt von Gebistorf.,162,0010.txt,Witt, Georg, , Gebistorf, , ,
+163,2 Augusti 1780,1780-08-02,ROESSL,10,Ein Zurzacher Fuhrmann.,163,0010.txt,,Ein,Zurzacher,,Fuhrmann,,
+164,2 Augusti 1780,1780-08-02,ROESSL,10,2 Pilger.,164,0010.txt,Pilger,,,,,,,
+165,2 Augusti 1780,1780-08-02,SCHWANEN,9,Ein Gerwer von Immenstadt.,165,0010.txt,Gerwer,,Ein,Immenstadt,,,
