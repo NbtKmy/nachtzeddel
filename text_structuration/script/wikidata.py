@@ -9,7 +9,7 @@ import time
 
 start = time.time()
 
-titles = ['Hr', 'Mr', 'Fr', 'Herr', 'Monsieur', 'Frau', 'Madame', 'Jkr', 'Madm']
+titles = ['Hr', 'Mr', 'Fr', 'Herr', 'Monsieur', 'Frau', 'Madame', 'Jkr', 'Madm', 'Pfr', 'Pr']
 
 def get_wiki_hits(name):
     url = "https://de.wikipedia.org/w/api.php"
@@ -43,9 +43,41 @@ def get_name_hits(name):
                 links.append(name + " (" + str(' '.join(hits)) + ")")
         
     # check hits without von something
-    if ' von' in name:
+    if ' von ' in name:
         hits = []
-        name = name[slice(0, name.index(' von'))]
+        name = name[slice(0, name.index(' von '))]
+        hits = get_wiki_hits(name)
+        if len(hits) > 0:
+            links.append(name + " (" + str(' '.join(hits)) + ")")
+
+    # check hits without aus something
+    if ' aus ' in name:
+        hits = []
+        name = name[slice(0, name.index(' aus '))]
+        hits = get_wiki_hits(name)
+        if len(hits) > 0:
+            links.append(name + " (" + str(' '.join(hits)) + ")")
+
+    # check hits without de something
+    if ' de ' in name:
+        hits = []
+        name = name[slice(0, name.index(' de '))]
+        hits = get_wiki_hits(name)
+        if len(hits) > 0:
+            links.append(name + " (" + str(' '.join(hits)) + ")")
+
+    # check hits without d' something
+    if ' d\'' in name:
+        hits = []
+        name = name[slice(0, name.index(' d\''))]
+        hits = get_wiki_hits(name)
+        if len(hits) > 0:
+            links.append(name + " (" + str(' '.join(hits)) + ")")
+
+    # check hits without D' something
+    if ' D\'' in name:
+        hits = []
+        name = name[slice(0, name.index(' D\''))]
         hits = get_wiki_hits(name)
         if len(hits) > 0:
             links.append(name + " (" + str(' '.join(hits)) + ")")
@@ -96,30 +128,55 @@ def parse_visitor_line(record):
     record = record.replace(' ſ. 2.', '.')
     record = record.replace(' f. 3.', '.')
     record = record.replace(' f. 4.', '.')
+    record = record.replace(' f. 5.', '.')
+    record = record.replace(' f. 6.', '.')
+    record = record.replace(' f. 7.', '.')
+    record = record.replace(' f. 8.', '.')
+    record = record.replace(' f. 1', '')
+    record = record.replace(' f. 2', '')
+    record = record.replace(' f. 3', '')
+    record = record.replace(' f. 4', '')
+    record = record.replace(' f. 5', '')
+    record = record.replace(' f. 6', '')
+    record = record.replace(' f. 7', '')
+    record = record.replace(' f. 8', '')
     record = record.replace('Mr-', 'Mr.')
     record = record.replace('Mr ', 'Mr.')
     record = record.replace('Hr ', 'Hr.')
     record = record.replace('Landl-', 'Landl')
     record = record.replace('-Herr', '. Herr')
+    record = record.replace(' u. ', ' und ')
     record = record.replace(' und ', ' & ')
+    record = record.replace(' v. ', ' von ')
     record = record.replace('& 1', '. 1')
     record = record.replace('& 2', '. 2')
     record = record.replace('& 3', '. 3')
     record = record.replace('& 4', '. 4')
+    record = record.replace('& 5', '. 5')
+    record = record.replace('& 6', '. 6')
+    record = record.replace('& 7', '. 7')
+    record = record.replace('& 8', '. 8')
     record = record.replace(' be ', ' de ')
     record = record.replace('St. ', 'Sankt ')
+    record = record.replace('St ', 'Sankt ')
+    record = record.replace('Tfch', 'Tsch')
+    record = record.replace('tfch', 'tsch')
     #record = record.replace(' & Frau', '')
     record = record.strip(' ')
     record = record.strip('-')
     record = record.strip(',')
+    record = record.strip('&')
+    record = record.strip(' ')
 
     # stop on confusion
     confusing = False
     if ':' in record:
         confusing = True
-    if '-' in record:
+    if '-' in record and not "Portrait-Mahler" in record and not "Glas-händler" in record and not "Capaunen-händler" in record:
         confusing = True
     if '&' in record:
+        confusing = True
+    if '}' in record:
         confusing = True
     if confusing:
         print("confusing: " + record)
@@ -130,7 +187,6 @@ def parse_visitor_line(record):
     visitor_list = record.split('.')
     record = ''
     visitor_list_names = []
-    next_no_period = False
     new_name = False
     for index, piece in enumerate(visitor_list):
         # clean up piece
@@ -142,6 +198,8 @@ def parse_visitor_line(record):
         if not piece or piece[0] in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
             continue
         if piece[slice(0, 4)] == 'Ein ':    
+            continue
+        if piece[slice(0, 5)] == 'Eine ':    
             continue
 
         if 0 == index:
@@ -155,29 +213,20 @@ def parse_visitor_line(record):
         elif piece in ['Cath', 'Jof', 'Joh', 'Bapt', 'Jac', 'Casp']:
             visitor_list_names[-1] += '. ' + piece
         else:
-            if next_no_period:
-                visitor_list_names[-1] += piece
-                next_no_period = False
-                new_name = True
-            elif len(visitor_list_names) > 0:
+            if len(visitor_list_names) > 0:
                 visitor_list_names[-1] += '. ' + piece
                 new_name = True
             else:
                 visitor_list_names.append(piece)
                 new_name = True
-        if piece[-1] in ['v', 'v']:
-            #print("!!!!" + piece)
-            visitor_list_names[-1] += 'on '
-            next_no_period = True
-            new_name = False
-    links = []
 
+    links = []
     for name in visitor_list_names:
         hits = get_name_hits(name)
         links.append(str(' '.join(hits)))
     joined_names = ', '.join(visitor_list_names)
     joined_links = ', '.join(links)
-    print(joined_links)
+    #print(joined_links)
     return joined_names, joined_links
 
 # Function to parse a single file
@@ -228,6 +277,7 @@ for x in os.walk(txt_directory):
     files += sorted([x[0] + '/' + f for f in os.listdir(x[0]) if f.endswith(".txt")])
 
 # Iterate over all text files in the directory, in sequential order
+line_limit_count = 0
 for filename in files:
     #print(filename)
     filepath = os.path.join(txt_directory, filename)
@@ -239,6 +289,9 @@ for filename in files:
             if visitor_lines:  # If there are visitors listed for the inn
                 #visitor_list = visitors.split(', ')  # Separate individual visitors
                 for line in visitor_lines:
+                        line_limit_count += 1
+                        if line_limit_count > 1000:
+                            break
                     #print(visitor)
                     #if visitor:
                         # Add the structured data for each individual visitor
@@ -253,7 +306,12 @@ for filename in files:
                             'Filename': filename
                         })
                         visit_id += 1  # Increment visit ID
-
+                else:
+                    continue
+                break
+        else:
+            continue
+        break
 # Convert the structured data into a DataFrame
 df_structured = pd.DataFrame(structured_data)
 
