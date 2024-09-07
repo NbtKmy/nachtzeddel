@@ -5,6 +5,9 @@ from datetime import datetime
 import seaborn as sns
 import matplotlib.pyplot as plt
 import requests
+import time
+
+start = time.time()
 
 titles = ['Hr', 'Mr', 'Fr', 'Herr', 'Monsieur', 'Frau', 'Madame', 'Jkr', 'Madm']
 
@@ -21,6 +24,33 @@ def get_wiki_hits(name):
         results = r.json()
         hits = results[3]
     return hits
+
+def get_name_hits(name):
+    links = []
+    hits = get_wiki_hits(name)
+    #print(hits)
+    if len(hits) > 0:
+        links.append(name + " (" + str(' '.join(hits)) + ")")
+
+    # check hits without title
+    for title in titles:
+        title_with_period = title + '. '
+        if title_with_period in name:
+            hits = []
+            name = name.replace(title_with_period, '')
+            hits = get_wiki_hits(name)
+            if len(hits) > 0:
+                links.append(name + " (" + str(' '.join(hits)) + ")")
+        
+    # check hits without von something
+    if ' von' in name:
+        hits = []
+        name = name[slice(0, name.index(' von'))]
+        hits = get_wiki_hits(name)
+        if len(hits) > 0:
+            links.append(name + " (" + str(' '.join(hits)) + ")")
+
+    return links
 
 # Inns to look for in the text
 inns = ['SCHWERDT', 'STORCHEN', 'STÖRCHEN', 'STOKCHEN', 'ADLER', 'HIRSCHEN', 'RAABEN', 'RABEN', 'LEUEN', 'LEUWEN', 'LUEN', 'ROESSL', 'ROESSLI', 'ROESSLE', 'ROEFSLI', 'ROESSEL', 'SCHWANEN', 'ROTHHAUS', 'ROTHAUS', 'ROTHUS', 'HAAREN', 'KUTSCHEN', 'SCHEHAUS']
@@ -56,6 +86,7 @@ def convert_to_modern_date(historical_date):
 
 confusing_count = 0
 def parse_visitor_line(record):
+    global confusing_count
     # clean the record
     for title in titles:
         if record == title:
@@ -75,7 +106,12 @@ def parse_visitor_line(record):
     record = record.replace('& 2', '. 2')
     record = record.replace('& 3', '. 3')
     record = record.replace('& 4', '. 4')
+    record = record.replace(' be ', ' de ')
+    record = record.replace('St. ', 'Sankt ')
     #record = record.replace(' & Frau', '')
+    record = record.strip(' ')
+    record = record.strip('-')
+    record = record.strip(',')
 
     # stop on confusion
     confusing = False
@@ -86,9 +122,9 @@ def parse_visitor_line(record):
     if '&' in record:
         confusing = True
     if confusing:
-        #print("confusing: " + record)
-        #confusing_count += 1
-        return "UNABLE TO PARSE"
+        print("confusing: " + record)
+        confusing_count += 1
+        return "UNABLE TO PARSE", ""
     
     # parse record
     visitor_list = record.split('.')
@@ -135,30 +171,13 @@ def parse_visitor_line(record):
             next_no_period = True
             new_name = False
     links = []
-    for name in visitor_list_names:
-        hits = get_wiki_hits(name)
-        #print(hits)
-        if len(hits) > 0:
-            links.append(name + " (" + str(' '.join(hits)) + ")")
 
-        # check hits without title
-        for title in titles:
-            if title in name:
-                hits = []
-                name = name.replace(title, '')
-                hits = get_wiki_hits(name)
-                if len(hits) > 0:
-                    links.append(name + " (" + str(' '.join(hits)) + ")")
-        
-        # check hits without von something
-        if 'von' in name:
-            hits = []
-            name = name[slice(0, name.index('von'))]
-            hits = get_wiki_hits(name)
-            if len(hits) > 0:
-                links.append(name + " (" + str(' '.join(hits)) + ")")
+    for name in visitor_list_names:
+        hits = get_name_hits(name)
+        links.append(str(' '.join(hits)))
     joined_names = ', '.join(visitor_list_names)
     joined_links = ', '.join(links)
+    print(joined_links)
     return joined_names, joined_links
 
 # Function to parse a single file
@@ -189,10 +208,7 @@ def parse_file(filepath):
         else:
             # Add non-inn lines to the current list
             if inn and len(line) > 0:
-                parsed = parse_visitor_line(line)
-                print(parsed)
-                joined_names = parsed[0]
-                joined_links = parsed[1]
+                joined_names, joined_links = parse_visitor_line(line)
                 visitor_lines.append( { "raw_line" : line, "processed_line" : joined_names, "links": joined_links } )
         #print(inn_data)
     return historical_date, modern_date, inn_data
@@ -254,97 +270,7 @@ df_structured = df_structured[['Visit_ID', 'Historical Date', 'Modern Date', 'In
 # Save the structured DataFrame to a new CSV file with UTF-8 encoding
 df_structured.to_csv('structured_guests_with_inn_ids_bradley.csv', index=False, encoding='utf-8')
 
-# import CSV of nachtzeddel
-records = pd.read_csv('structured_guests_with_inn_ids.csv', header=0)
-names_column = []
-hits_column = []
-confusing_records = []
-confusing_count = 0
-for record in records['Visitor']:
-    #print("rec: " + record)
-    names = []
-    hit_names = []
-
-
-    if True:
-        # parse record
-        visitor_list = record.split('.')
-        visitor_list_names = []
-        next_no_period = False
-        new_name = False
-        for index, piece in enumerate(visitor_list):
-            # clean up piece
-            piece = piece.strip(' ')
-            if len(piece) >= 2 and piece[slice(len(piece)-2, len(piece))] == ' f':
-                piece = piece[:len(piece)-2]
-            #print(piece)
-
-            # ignore lower class counts
-            if not piece or piece[0] in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
-                continue
-            if piece[slice(0, 4)] == 'Ein ':    
-                continue
-
-            if 0 == index:
-                visitor_list_names.append(piece)
-            elif new_name:
-                visitor_list_names.append(piece)
-                if ' ' not in piece:
-                    new_name = False
-            elif piece in titles:
-                visitor_list_names.append(piece)
-            elif piece in ['Cath', 'Jof', 'Joh', 'Bapt', 'Jac', 'Casp']:
-                visitor_list_names[-1] += '. ' + piece
-            else:
-                if next_no_period:
-                    visitor_list_names[-1] += piece
-                    next_no_period = False
-                    new_name = True
-                elif len(visitor_list_names) > 0:
-                    visitor_list_names[-1] += '. ' + piece
-                    new_name = True
-                else:
-                    visitor_list_names.append(piece)
-                    new_name = True
-            if piece[-1] in ['v', 'v']:
-                #print("!!!!" + piece)
-                visitor_list_names[-1] += 'on '
-                next_no_period = True
-                new_name = False
-        for name in visitor_list_names:
-            names.append(name)
-            """
-            hits = get_wiki_hits(name)
-            #print(hits)
-            if len(hits) > 0:
-                hit_names.append(name + " (" + str(' '.join(hits)) + ")")
-
-            # check hits without title
-            for title in titles:
-                if title in name:
-                    hits = []
-                    name = name.replace(title, '')
-                    hits = get_wiki_hits(name)
-                    if len(hits) > 0:
-                        hit_names.append(name + " (" + str(' '.join(hits)) + ")")
-            
-            # check hits without von something
-            if 'von' in name:
-                hits = []
-                name = name[slice(0, name.index('von'))]
-                hits = get_wiki_hits(name)
-                if len(hits) > 0:
-                    hit_names.append(name + " (" + str(' '.join(hits)) + ")")
-                    """
-    #print(names)
-
-    names_column.append(', '.join(names))
-    hits_column.append(', '.join(hit_names))
 print("confusing_count: " + str(confusing_count))
 
-# add names to records
-records['Names'] = names_column
-records['Hits'] = hits_column
-
-# save records
-records.to_csv('hotels_with_names_extracted.csv', index=False, encoding='utf-8')
+end = time.time()
+print('Runtime: ' + str(end - start))
