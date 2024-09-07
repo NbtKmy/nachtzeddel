@@ -9,16 +9,21 @@ import requests
 titles = ['Hr', 'Mr', 'Fr', 'Herr', 'Monsieur', 'Frau', 'Madame', 'Jkr', 'Madm']
 
 def get_wiki_hits(name):
-    prefix = "https://de.wikipedia.org/w/api.php?action=opensearch&format=json&search="
+    url = "https://de.wikipedia.org/w/api.php"
+    params = {
+        "action": "opensearch",
+        "search": name,
+        "format": "json"
+    }
     hits = []
     if len(name) > 0:
-        r = requests.get(prefix + name)
+        r = requests.get(url=url, params=params)
         results = r.json()
         hits = results[3]
     return hits
 
 # Inns to look for in the text
-inns = ['SCHWERDT', 'STORCHEN', 'ADLER', 'HIRSCHEN', 'RAABEN', 'LEUEN', 'ROESSLI', 'SCHWANEN']
+inns = ['SCHWERDT', 'STORCHEN', 'STÖRCHEN', 'STOKCHEN', 'ADLER', 'HIRSCHEN', 'RAABEN', 'RABEN', 'LEUEN', 'LEUWEN', 'LUEN', 'ROESSL', 'ROESSLI', 'ROESSLE', 'ROEFSLI', 'ROESSEL', 'SCHWANEN', 'ROTHHAUS', 'ROTHAUS', 'ROTHUS', 'HAAREN', 'KUTSCHEN', 'SCHEHAUS']
 
 def inn_in_line(line):
     for inn in inns:
@@ -49,6 +54,113 @@ def convert_to_modern_date(historical_date):
     modern_date_str = f"{year}-{month_numeric}-{day.zfill(2)}"
     return modern_date_str
 
+confusing_count = 0
+def parse_visitor_line(record):
+    # clean the record
+    for title in titles:
+        if record == title:
+            return ''
+    record = record.replace(' f. 1.', '.')
+    record = record.replace(' f. 2.', '.')
+    record = record.replace(' ſ. 2.', '.')
+    record = record.replace(' f. 3.', '.')
+    record = record.replace(' f. 4.', '.')
+    record = record.replace('Mr-', 'Mr.')
+    record = record.replace('Mr ', 'Mr.')
+    record = record.replace('Hr ', 'Hr.')
+    record = record.replace('Landl-', 'Landl')
+    record = record.replace('-Herr', '. Herr')
+    record = record.replace(' und ', ' & ')
+    record = record.replace('& 1', '. 1')
+    record = record.replace('& 2', '. 2')
+    record = record.replace('& 3', '. 3')
+    record = record.replace('& 4', '. 4')
+    #record = record.replace(' & Frau', '')
+
+    # stop on confusion
+    confusing = False
+    if ':' in record:
+        confusing = True
+    if '-' in record:
+        confusing = True
+    if '&' in record:
+        confusing = True
+    if confusing:
+        #print("confusing: " + record)
+        #confusing_count += 1
+        return "UNABLE TO PARSE"
+    
+    # parse record
+    visitor_list = record.split('.')
+    record = ''
+    visitor_list_names = []
+    next_no_period = False
+    new_name = False
+    for index, piece in enumerate(visitor_list):
+        # clean up piece
+        piece = piece.strip(' ')
+        if len(piece) >= 2 and piece[slice(len(piece)-2, len(piece))] == ' f':
+            piece = piece[:len(piece)-2]
+
+        # ignore lower class counts
+        if not piece or piece[0] in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
+            continue
+        if piece[slice(0, 4)] == 'Ein ':    
+            continue
+
+        if 0 == index:
+            visitor_list_names.append(piece)
+        elif new_name:
+            visitor_list_names.append(piece)
+            if ' ' not in piece:
+                new_name = False
+        elif piece in titles:
+            visitor_list_names.append(piece)
+        elif piece in ['Cath', 'Jof', 'Joh', 'Bapt', 'Jac', 'Casp']:
+            visitor_list_names[-1] += '. ' + piece
+        else:
+            if next_no_period:
+                visitor_list_names[-1] += piece
+                next_no_period = False
+                new_name = True
+            elif len(visitor_list_names) > 0:
+                visitor_list_names[-1] += '. ' + piece
+                new_name = True
+            else:
+                visitor_list_names.append(piece)
+                new_name = True
+        if piece[-1] in ['v', 'v']:
+            #print("!!!!" + piece)
+            visitor_list_names[-1] += 'on '
+            next_no_period = True
+            new_name = False
+    links = []
+    for name in visitor_list_names:
+        hits = get_wiki_hits(name)
+        #print(hits)
+        if len(hits) > 0:
+            links.append(name + " (" + str(' '.join(hits)) + ")")
+
+        # check hits without title
+        for title in titles:
+            if title in name:
+                hits = []
+                name = name.replace(title, '')
+                hits = get_wiki_hits(name)
+                if len(hits) > 0:
+                    links.append(name + " (" + str(' '.join(hits)) + ")")
+        
+        # check hits without von something
+        if 'von' in name:
+            hits = []
+            name = name[slice(0, name.index('von'))]
+            hits = get_wiki_hits(name)
+            if len(hits) > 0:
+                links.append(name + " (" + str(' '.join(hits)) + ")")
+    joined_names = ', '.join(visitor_list_names)
+    joined_links = ', '.join(links)
+    return joined_names, joined_links
+
 # Function to parse a single file
 def parse_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as file:
@@ -64,20 +176,24 @@ def parse_file(filepath):
 
     inn_data = {}
     inn = None
-    visitors = ''
+    visitor_lines = []
     lines = content.splitlines()
     for line in lines:
         if inn_in_line(line):
             #print(line)
             if inn:
-                inn_data[inn] = visitors
+                inn_data[inn] = visitor_lines
             # Start a new key and reset the list
-            inn = re.sub(r'[^A-Z]+$', '', line.strip())
-            visitors = ''
+            inn = inn_in_line(line)
+            visitor_lines = []
         else:
-            # Add non-uppercase lines to the current list
+            # Add non-inn lines to the current list
             if inn and len(line) > 0:
-                visitors += line + ' '
+                parsed = parse_visitor_line(line)
+                print(parsed)
+                joined_names = parsed[0]
+                joined_links = parsed[1]
+                visitor_lines.append( { "raw_line" : line, "processed_line" : joined_names, "links": joined_links } )
         #print(inn_data)
     return historical_date, modern_date, inn_data
 
@@ -86,7 +202,6 @@ structured_data = []
 
 # Initialize counters for visit and guest IDs
 visit_id = 1
-guest_id = 1
 
 # Get all files in the directory and sort them alphanumerically
 files = []
@@ -104,10 +219,10 @@ for filename in files:
     historical_date, modern_date, inn_data = parse_file(filepath)
     if historical_date and modern_date and inn_data:
         # Iterate over each inn and process visitors
-        for inn, visitors in inn_data.items():
-            if visitors:  # If there are visitors listed for the inn
+        for inn, visitor_lines in inn_data.items():
+            if visitor_lines:  # If there are visitors listed for the inn
                 #visitor_list = visitors.split(', ')  # Separate individual visitors
-                #for visitor in visitors:
+                for line in visitor_lines:
                     #print(visitor)
                     #if visitor:
                         # Add the structured data for each individual visitor
@@ -116,12 +231,12 @@ for filename in files:
                             'Historical Date': historical_date,
                             'Modern Date': modern_date,
                             'Inn': inn,
-                            'Visitor': visitors,
-                            'Guest_ID': guest_id,
+                            'Raw Line': line["raw_line"],
+                            'Visitor': line["processed_line"],
+                            'Links': line["links"],
                             'Filename': filename
                         })
                         visit_id += 1  # Increment visit ID
-                        guest_id += 1  # Increment guest ID
 
 # Convert the structured data into a DataFrame
 df_structured = pd.DataFrame(structured_data)
@@ -131,13 +246,13 @@ inn_unique_ids = {inn: idx + 1 for idx, inn in enumerate(df_structured['Inn'].un
 df_structured['Inn_ID'] = df_structured['Inn'].map(inn_unique_ids)
 
 # Reorder columns to place 'Inn_ID' next to 'Inn'
-df_structured = df_structured[['Visit_ID', 'Historical Date', 'Modern Date', 'Inn', 'Inn_ID', 'Visitor', 'Guest_ID', 'Filename']]
+df_structured = df_structured[['Visit_ID', 'Historical Date', 'Modern Date', 'Inn', 'Inn_ID', 'Raw Line', 'Visitor', 'Links', 'Filename']]
 
 # Display the structured DataFrame with the new Inn_ID column next to Inn
 #print(df_structured.head())
 
 # Save the structured DataFrame to a new CSV file with UTF-8 encoding
-df_structured.to_csv('structured_guests_with_inn_ids_sarah.csv', index=False, encoding='utf-8')
+df_structured.to_csv('structured_guests_with_inn_ids_bradley.csv', index=False, encoding='utf-8')
 
 # import CSV of nachtzeddel
 records = pd.read_csv('structured_guests_with_inn_ids.csv', header=0)
@@ -150,40 +265,8 @@ for record in records['Visitor']:
     names = []
     hit_names = []
 
-    # clean the record
-    for title in titles:
-        if record == title:
-            continue
-    record = record.replace(' f. 1.', '.')
-    record = record.replace(' f. 2.', '.')
-    record = record.replace(' ſ. 2.', '.')
-    record = record.replace(' f. 3.', '.')
-    record = record.replace(' f. 4.', '.')
-    record = record.replace('Mr-', 'Mr.')
-    record = record.replace('Mr ', 'Mr.')
-    record = record.replace('Hr ', 'Hr.')
-    record = record.replace('Landl-', 'Landl')
-    record = record.replace('-Herr', '. Herr')
-    record = record.replace(' und ', ' & ')
-    record = record.replace('& 1', '. 1')
-    record = record.replace('& 2', '. 2')
-    record = record.replace('& 3', '. 3')
-    record = record.replace('& 4', '. 4')
-    record = record.replace(' & Frau', '')
 
-    # stop on confusion
-    confusing = False
-    if ':' in record:
-        confusing = True
-    if '-' in record:
-        confusing = True
-    if '&' in record:
-        confusing = True
-    if confusing:
-        names.append("UNABLE TO PARSE")
-        print("confusing: " + record)
-        confusing_count += 1
-    else:
+    if True:
         # parse record
         visitor_list = record.split('.')
         visitor_list_names = []
