@@ -290,7 +290,7 @@ for filename in files:
                 #visitor_list = visitors.split(', ')  # Separate individual visitors
                 for line in visitor_lines:
                         line_limit_count += 1
-                        if line_limit_count > 1000:
+                        if line_limit_count > 1000000:
                             break
                     #print(visitor)
                     #if visitor:
